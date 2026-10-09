@@ -1,215 +1,228 @@
 <p align="center">
+  <b>English</b> ·
+  <a href="README.ru.md">Русский</a> ·
+  <a href="README.es.md">Español</a> ·
+  <a href="README.pt.md">Português</a> ·
+  <a href="README.de.md">Deutsch</a> ·
+  <a href="README.fr.md">Français</a> ·
+  <a href="README.zh.md">中文</a> ·
+  <a href="README.ja.md">日本語</a> ·
+  <a href="README.ko.md">한국어</a>
+</p>
+
+<p align="center">
   <img src="screenshots/icon.png" width="96" alt="Grimsby Player">
 </p>
 
 <h1 align="center">Grimsby Player</h1>
 
 <p align="center">
-  <b>Офлайн-плеер для тех, кто скачивает и собирает музыку.</b><br>
-  Ваша медиатека выглядит как стриминг — только всё лежит на вашем диске, а не на чужом сервере.
+  <b>An offline player for people who download and collect music.</b><br>
+  Your library looks like a streaming service — but everything lives on your own drive, not on someone else's server.
 </p>
 
 <p align="center">
-  <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=3F7EAC" alt="Версия"></a>
+  <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
-  <img src="https://img.shields.io/badge/%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE-%D0%B1%D0%B5%D0%B7%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B-111314" alt="Бесплатно, без рекламы">
-  <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=858A8D" alt="Скачивания"></a>
+  <img src="https://img.shields.io/badge/free-no%20ads-111314" alt="Free, no ads">
+  <img src="https://img.shields.io/badge/languages-9-858A8D" alt="9 languages">
+  <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><b>⬇ Скачать для Windows</b></a>
+  <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><b>⬇ Download for Windows</b></a>
   &nbsp;·&nbsp;
-  <a href="#возможности">Возможности</a>
+  <a href="#features">Features</a>
   &nbsp;·&nbsp;
-  <a href="#как-подготовить-файлы">Как подготовить файлы</a>
+  <a href="#how-to-organize-your-files">Organizing files</a>
   &nbsp;·&nbsp;
-  <a href="#обратная-связь">Обратная связь</a>
+  <a href="#feedback">Feedback</a>
 </p>
 
-![Главная Grimsby Player](screenshots/home.png)
-
-> **🇬🇧 In English:** Grimsby Player is a free offline music and music-video player for Windows 10/11.
-> Point it at your music folder and get a streaming-style library: albums by year, artist pages, music videos linked to albums,
-> gapless playback, ReplayGain, a 10-band EQ, listening stats and a yearly recap. No accounts, no ads, nothing leaves your PC.
-> The interface is currently in Russian. [Download the latest version →](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)
+![Grimsby Player home](screenshots/en/home.jpg)
 
 ---
 
-## Зачем он нужен
+## Why Grimsby
 
-Если вы качаете альбомы во FLAC, собираете дискографии, храните клипы и концерты, то знаете, как это обычно бывает.
-У стримингов удобный интерфейс, но там нет вашей музыки: редких релизов, качественных рипов, клипов, которые удалили с YouTube.
-У классических плееров с музыкой всё в порядке, а вот интерфейс будто из 2008 года.
+If you download albums in FLAC, collect discographies and keep music videos and live sets, you know the problem.
+Streaming apps look great, but your music isn't there: rare releases, quality rips, videos that disappeared from YouTube.
+Classic players handle your files just fine — but their interface feels stuck in 2008.
 
-**Grimsby соединяет одно с другим.** Укажите папку с музыкой, и через минуту ваша коллекция превратится в красивую медиатеку:
-альбомы по годам, страницы исполнителей с фото, клипы рядом с альбомами, статистика и итоги года, как в Spotify Wrapped.
-Без аккаунтов, подписок, рекламы и интернета.
+**Grimsby brings the two together.** Point it at your music folder, and a minute later your collection becomes a beautiful library:
+albums by year, artist pages with photos, music videos next to albums, stats and a yearly recap in the spirit of Spotify Wrapped.
+No accounts, no subscriptions, no ads, no internet required.
 
-| | Стриминг | Классический плеер | **Grimsby** |
+| | Streaming | Classic player | **Grimsby** |
 |---|:---:|:---:|:---:|
-| Ваши собственные файлы (FLAC, редкие релизы) | ✕ | ✓ | **✓** |
-| Современный красивый интерфейс | ✓ | ✕ | **✓** |
-| Клипы, концерты и фильмы рядом с альбомами | частично | ✕ | **✓** |
-| Статистика и итоги года | ✓ | ✕ | **✓** |
-| Работает без интернета и подписки | ✕ | ✓ | **✓** |
-| Ничего о вас никуда не отправляет | ✕ | ✓ | **✓** |
+| Your own files (FLAC, rare releases) | ✕ | ✓ | **✓** |
+| Modern, beautiful interface | ✓ | ✕ | **✓** |
+| Music videos, concerts and films next to albums | partly | ✕ | **✓** |
+| Stats and a yearly recap | ✓ | ✕ | **✓** |
+| Works offline, no subscription | ✕ | ✓ | **✓** |
+| Sends nothing about you anywhere | ✕ | ✓ | **✓** |
 
 ---
 
-## Возможности
+## Features
 
-### 💿 Альбомы — главные герои
+### 💿 Albums come first
 
-Grimsby рассчитан на прослушивание альбомами. Вся коллекция разложена по годам выхода, как в MusicBee: шкала годов сверху, заголовок текущего года «прилипает» к верху страницы,
-а клик по нему открывает календарь для быстрого перехода. Ещё есть вкладки «Все треки» с сортировкой по столбцам, «Исполнители», «По названию», «По исполнителю» и «Недавно добавленные».
+Grimsby is built for listening to whole albums. Your entire collection is laid out by release year, like in MusicBee: a year strip on top,
+the current year's header sticks to the top of the page, and clicking it opens a calendar for quick jumps.
+There are also tabs for All tracks (sortable by column), Artists, By title, By artist and Recently added.
 
-![Медиатека по годам](screenshots/library-years.png)
+![Library by year](screenshots/en/library-years.jpg)
 
-- **Мгновенно даже на огромной медиатеке.** Проверено на коллекции из 23 783 треков и 1 554 альбомов (286 ГБ): прокрутка плавная, поиск отвечает сразу.
-- **Сканирование только по вашей команде.** Можно выбрать «при каждом запуске», «раз в день» или «только вручную». Уже известные файлы повторно не читаются.
-- **Поддерживаются MP3, FLAC, ALAC, AAC/M4A, OGG, Opus и WAV.** Apple Lossless, который не играют обычные браузерные движки, Grimsby тихо перекодирует сам.
-- **Исполнители «при участии»** находятся по названиям треков: `(feat. …)`, `(ft. …)`, `(with …)`. Такие треки попадают и на страницы соавторов.
+- **Instant even on a huge library.** Tested on a collection of 23,783 tracks and 1,554 albums (286 GB): smooth scrolling, instant search.
+- **Scans only when you say so:** on every launch, once a day or manually. Files it already knows aren't read again.
+- **MP3, FLAC, ALAC, AAC/M4A, OGG, Opus and WAV.** Grimsby quietly converts Apple Lossless, which browser engines can't play.
+- **Featured artists** are found in track titles — `(feat. …)`, `(ft. …)`, `(with …)` — and the tracks show up on their pages too.
 
-![Страница альбома](screenshots/album.png)
+![Album page](screenshots/en/album.jpg)
 
-### 🎤 Страница исполнителя — вся его жизнь в одном месте
+### 🎤 An artist's whole story on one page
 
-Альбомы, синглы, клипы, фильмы, концерты и совместные треки на одной странице. Фото исполнителей Grimsby один раз подтягивает из Deezer, дальше всё работает офлайн.
-Здесь же «Радио исполнителя» и кнопка «Смотреть все видео подряд».
+Albums, singles, music videos, films, concerts and features on a single page. Grimsby fetches artist photos from Deezer once — after that everything works offline.
+Artist radio and "Watch all videos" are right there.
 
-![Страница исполнителя](screenshots/artist.png)
+![Artist page](screenshots/en/artist.jpg)
 
-### 🎬 Клипы, концерты и фильмы к альбомам
+### 🎬 Music videos, concerts and album films
 
-Это то, чего нет ни в одном стриминге. Grimsby сам разбирает вашу папку с видео:
+This is something no streaming service has. Grimsby sorts your video folder for you:
 
-- клипы в формате `Исполнитель — Название` раскладываются по исполнителям и годам;
-- видео из папки альбома становятся клипами **этого альбома**;
-- файлы с пометкой `(Film)` становятся **фильмами к альбомам**, и альбом с фильмом рекомендуют друг друга;
-- папка `concerts` превращается в раздел концертов с рубриками (например, *Tiny Desk Concert*).
+- videos named `Artist — Title` are grouped by artist and year;
+- a video inside an album folder becomes a music video **of that album**;
+- files marked `(Film)` become **album films**, and the album and its film recommend each other;
+- a `concerts` folder turns into a concerts section with series (for example, *Tiny Desk Concert*).
 
-Видео играет прямо в приложении. Его можно свернуть в угол плеера, как в Spotify, и спокойно листать медиатеку дальше.
-Если в файле редкий кодек (например, AV1 в 4K), Grimsby подготовит совместимую копию сам, и вам не придётся искать другой плеер.
+Videos play right inside the app. Shrink one into the corner of the player, like in Spotify, and keep browsing your library.
+If a file uses a rare codec (say, AV1 in 4K), Grimsby prepares a compatible copy by itself — no need to hunt for another player.
 
-![Раздел видео и мини-окно клипа](screenshots/video-mini.png)
+![Videos with a mini video window](screenshots/en/video-mini.jpg)
 
-Не смотрите клипы? Раздел видео выключается в настройках одним переключателем.
+Don't watch videos? Turn the whole section off with a single switch in settings.
 
-### 🔊 Звук, как в хорошем плеере
+### 🔊 Sound like a proper player
 
-- **Бесшовные переходы (gapless).** Концептуальные альбомы играют без пауз между треками.
-- **Плавный кроссфейд от 2 до 12 секунд.** Внутри одного альбома он сам отключается, чтобы не портить задуманные переходы.
-- **Выравнивание громкости (ReplayGain / LUFS)** в режимах «умное», «по трекам» и «по альбомам». Старый ремастер и новый релиз звучат одинаково громко.
-- **10-полосный эквалайзер** с пресетами «Хип-хоп», «R&B», «Больше баса», «Вокал», «Тихое прослушивание» и другими.
-- **Таймер сна, мини-плеер поверх всех окон, радио по исполнителю, «Играть следующим», перетаскивание треков в очереди.**
-- **Длинные треки и миксы** продолжаются с того места, где вы остановились.
+- **Gapless playback** — concept albums play without pauses between tracks.
+- **Smooth crossfade from 2 to 12 seconds**, automatically skipped within one album so intended transitions stay intact.
+- **Volume leveling (ReplayGain / LUFS)** — smart, per track or per album. An old remaster and a new release sound equally loud.
+- **10-band equalizer** with presets: Hip-hop, R&B, More bass, Vocal, Quiet listening and more.
+- **Sleep timer, an always-on-top mini player, artist radio, Play next and drag-and-drop in the queue.**
+- **Long tracks and mixes** resume where you left off.
 
-![Эквалайзер](screenshots/equalizer.png)
+![Equalizer](screenshots/en/equalizer.jpg)
 
-### 📊 Статистика для тех, кто любит цифры
+### 📊 Stats for people who love numbers
 
-**Прослушивания** за неделю, месяц, год и всё время. Топ исполнителей, альбомов и треков в минутах или запусках, серии дней с музыкой.
-**Коллекция:** сколько у вас треков, альбомов, жанров, гигабайт и часов музыки, какая доля в lossless и сколько альбомов вы **ни разу не включали**.
+**Listening** for the week, month, year and all time: top artists, albums and tracks by minutes or plays, listening streaks.
+**Collection**: how many tracks, albums, genres, gigabytes and hours of music you have, what share is lossless — and how many albums you've **never played**.
 
-![Статистика: коллекция](screenshots/stats-collection.png)
+![Collection stats](screenshots/en/stats-collection.jpg)
 
-### 🎁 Итоги года
+### 🎁 Your year in music
 
-С 1 декабря по 15 января Grimsby дарит итоги года: исполнитель года, альбом года, любимые треки, рекорды, открытия и ваш тип слушателя
-(«Преданный фанат», «Открыватель», «Ночной слушатель», «Марафонец»…). Каждую карточку можно сохранить картинкой для сторис, в тёмной или светлой теме.
+From December 1 to January 15, Grimsby gives you a yearly recap: artist of the year, album of the year, favorite tracks, records, discoveries and your listener type
+("Devoted fan", "Explorer", "Night owl", "Marathoner"…). Every card can be saved as an image for stories — in the dark or the light theme.
 
-![Итоги года](screenshots/year-recap.png)
+![Year in music](screenshots/en/year-recap.jpg)
 
-### 🎨 Тёмная и светлая темы
+### 🌍 Nine languages
 
-Фирменный синий Grimsby, графит и «бумага». Тему можно выбрать или поставить «как в Windows». По желанию страница альбома окрашивается в цвета его обложки.
+English, Русский, Español, Português, Deutsch, Français, 中文, 日本語 and 한국어. By default Grimsby speaks the language of your Windows; you can switch it in Appearance settings.
 
-![Светлая тема](screenshots/home-light.png)
+### 🎨 Dark and light themes
 
-![Все треки с сортировкой по столбцам](screenshots/all-tracks-light.png)
+Grimsby's signature blue, graphite and "paper". Pick a theme or follow Windows. Optionally, album pages take on the colors of the cover.
 
-### 🪟 Свой человек в Windows
+![Light theme](screenshots/en/home-light.jpg)
 
-- значок в области уведомлений с меню, как у Spotify;
-- кнопки «назад / пауза / вперёд» на миниатюре в панели задач и поддержка медиаклавиш;
-- мини-плеер поверх всех окон;
-- горячие клавиши для всего;
-- окно открывается таким, каким вы его закрыли.
+![All tracks with sortable columns](screenshots/en/all-tracks-light.jpg)
 
-### 🛠 И ещё
+### 🪟 Feels at home in Windows
 
-- **Плейлисты и папки** со своими обложками и описаниями, «Любимые треки», умные подборки.
-- **Редактор тегов:** правка тегов и обложки сразу у целого альбома. Перед изменением Grimsby сохраняет резервную копию файла.
-- **«Здоровье медиатеки»:** альбомы без обложки, года или жанра, треки без номеров, дубли, один альбом в нескольких папках и файлы, которые не удалось прочитать.
-- **Резервная копия** лайков, плейлистов и истории в один файл.
-- **Встроенная памятка «Как подготовить файлы»** простым языком.
-- **Обновления на ваш выбор:** «только сообщать», «автоматически» или «не проверять».
+- a tray icon with a menu, like Spotify;
+- previous / pause / next buttons in the taskbar thumbnail and media key support;
+- an always-on-top mini player;
+- keyboard shortcuts for everything;
+- the window reopens exactly the way you left it.
 
-![Настройки](screenshots/settings-light.png)
+### 🛠 And more
 
----
+- **Playlists and folders** with custom covers and descriptions, Favorite tracks, smart suggestions.
+- **Tag editor** — edit tags and cover art for a whole album at once. Grimsby backs up the files before changing them.
+- **Library health**: albums without a cover, year or genre, tracks without numbers, duplicates, one album split across folders, unreadable files.
+- **Backup** of likes, playlists and history into a single file.
+- **Built-in guide "How to prepare files"** in plain language.
+- **Updates your way**: notify only, install automatically, or don't check at all.
 
-## Скачать и установить
-
-1. Откройте страницу **[последней версии](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** и скачайте файл `Grimsby Player Setup X.Y.Z.exe`.
-2. Запустите установщик. Windows может показать синее окно «Windows защитила ваш компьютер». Это обычное предупреждение для программ без платной цифровой подписи. Нажмите **«Подробнее» → «Выполнить в любом случае»**.
-3. При первом запуске укажите папку с музыкой (и, если хотите, с клипами). Остальное Grimsby сделает сам.
-
-**Требования:** Windows 10 или 11 (64 бит). Интернет нужен только для обновлений и необязательных фото исполнителей.
-
-### Обновления
-
-Установленный Grimsby сам проверяет новые версии и показывает, что в них изменилось. Лайки, плейлисты, история и настройки при обновлении сохраняются.
-Полный список изменений есть на странице [Releases](https://github.com/maksimkhatskevich/grimsby-releases/releases) и в самой программе: «Настройки → О программе».
+![Settings](screenshots/en/settings-light.jpg)
 
 ---
 
-## Как подготовить файлы
+## Download and install
 
-Grimsby не заставляет перекладывать коллекцию: он читает теги и понимает самые распространённые способы хранения. Но порядок он любит:
+1. Open the **[latest release](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** page and download `Grimsby-Player-Setup-X.Y.Z.exe`.
+2. Run the installer. Windows may show a blue "Windows protected your PC" window — that's a normal warning for apps without a paid code-signing certificate. Click **More info → Run anyway**.
+3. On first launch, pick your music folder (and, if you like, your videos folder). Grimsby takes care of the rest.
+
+**Requirements:** Windows 10 or 11 (64-bit). Internet is only needed for updates and optional artist photos.
+
+### Updates
+
+Grimsby checks for new versions itself and shows what's changed. Your likes, playlists, history and settings are kept across updates.
+The full changelog is on the [Releases](https://github.com/maksimkhatskevich/grimsby-releases/releases) page and in the app: Settings → About.
+
+---
+
+## How to organize your files
+
+Grimsby doesn't make you reorganize your collection: it reads tags and understands the most common ways people store music. But it does love order:
 
 ```
 D:\Music\
 ├── albums\
 │   └── Tyler, The Creator\
 │       └── CHROMAKOPIA\
-│           ├── 01 - St. Chroma.flac          ← теги: исполнитель, альбом, год, обложка внутри файла
+│           ├── 01 - St. Chroma.flac          ← tags: artist, album, year, embedded cover
 │           ├── ...
-│           └── (2024) Tyler, The Creator — Noid.mp4   ← клип этого альбома
+│           └── (2024) Tyler, The Creator — Noid.mp4   ← a music video of this album
 └── clips\
     ├── 2024\
-    │   └── Kendrick Lamar — Not Like Us.mp4  ← клип, год берётся из папки
+    │   └── Kendrick Lamar — Not Like Us.mp4  ← a music video; the year comes from the folder
     └── concerts\
         └── Tiny Desk Concert\
-            └── Doechii — Tiny Desk.mp4       ← концерт в рубрике
+            └── Doechii — Tiny Desk.mp4       ← a concert in a series
 ```
 
-Подробная памятка есть в программе: «Настройки → Как подготовить файлы».
+There's a detailed guide in the app: Settings → How to prepare files.
 
 ---
 
-## Приватность
+## Privacy
 
-Grimsby работает **полностью на вашем компьютере**. В нём нет аккаунтов, рекламы и аналитики. Ваша история прослушиваний никуда не отправляется.
-В интернет программа выходит только за обновлениями (GitHub) и, если вы не отключили эту функцию, за фото исполнителей (Deezer).
-
----
-
-## Обратная связь
-
-Нашли ошибку, есть идея или просто хочется сказать спасибо? Пишите:
-
-- ✉️ почта: **[grimsbyy@gmail.com](mailto:grimsbyy@gmail.com)**
-- 🐞 ошибки и предложения: [Issues](https://github.com/maksimkhatskevich/grimsby-releases/issues)
-- 📣 Telegram: [@itsgrimsby](https://t.me/itsgrimsby)
-
-Если пишете об ошибке, укажите версию Grimsby («Настройки → О программе»), опишите, что вы делали, и, если можно, приложите скриншот.
+Grimsby runs **entirely on your computer**. No accounts, no ads, no analytics. Your listening history never leaves your PC.
+The app only goes online for updates (GitHub) and — unless you turn it off — for artist photos (Deezer).
 
 ---
 
-## Лицензии
+## Feedback
 
-Grimsby использует свободные компоненты, в том числе Electron, React и FFmpeg (GPL v3). Полный список с текстами лицензий и ссылками на исходный код находится в программе: «Настройки → О программе → Открыть список лицензий».
-Названия Spotify, Apple Music, MusicBee и Deezer упомянуты только для сравнения и принадлежат их владельцам. Обложки на скриншотах принадлежат правообладателям и показаны как пример чужой медиатеки.
+Found a bug, have an idea or just want to say thanks? Get in touch:
 
-<p align="center"><sub>Сделано с любовью к альбомам · © 2026 Grimsby</sub></p>
+- ✉️ email: **[grimsbyy@gmail.com](mailto:grimsbyy@gmail.com)**
+- 🐞 bugs and ideas: [Issues](https://github.com/maksimkhatskevich/grimsby-releases/issues)
+- 📣 Telegram: [@itsgrimsby](https://t.me/itsgrimsby) (in Russian)
+
+When reporting a bug, please include your Grimsby version (Settings → About), what you were doing and, if possible, a screenshot.
+
+---
+
+## Licenses
+
+Grimsby uses open-source components, including Electron, React and FFmpeg (GPL v3). The full list with license texts and links to source code is in the app: Settings → About → Open the license list.
+Spotify, Apple Music, MusicBee and Deezer are mentioned only for comparison and belong to their owners. Album covers in the screenshots belong to their rights holders and are shown as an example of a personal library.
+
+<p align="center"><sub>Made with love for albums · © 2026 Grimsby</sub></p>
