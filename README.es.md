@@ -26,6 +26,7 @@
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/gratis-sin%20anuncios-111314" alt="Gratis, sin anuncios">
   <img src="https://img.shields.io/badge/idiomas-9-858A8D" alt="9 idiomas">
+  <a href="https://www.virustotal.com/gui/file/5c565d77d2b34a541cc38c9464028a9a490483999d84340947974058d25d8179"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=descargas&color=858A8D" alt="Descargas"></a>
 </p>
 
@@ -44,7 +45,7 @@ Los servicios de streaming lucen genial, pero tu música no está ahí: lanzamie
 Los reproductores clásicos manejan bien tus archivos, pero su interfaz parece de 2008.
 
 **Grimsby une ambos mundos.** Indícale tu carpeta de música y en un minuto tu colección se convierte en una biblioteca preciosa:
-álbumes por año, páginas de artistas con fotos, videoclips junto a los álbumes, estadísticas y un resumen del año al estilo de Spotify Wrapped.
+álbumes por año, páginas de artistas con fotos, videoclips junto a los álbumes, estadísticas y un resumen del año.
 Sin cuentas, sin suscripciones, sin anuncios y sin internet.
 
 | | Streaming | Reproductor clásico | **Grimsby** |
@@ -53,6 +54,7 @@ Sin cuentas, sin suscripciones, sin anuncios y sin internet.
 | Interfaz moderna y bonita | ✓ | ✕ | **✓** |
 | Videoclips, conciertos y películas junto a los álbumes | en parte | ✕ | **✓** |
 | Estadísticas y resumen del año | ✓ | ✕ | **✓** |
+| Conversor, buscador de duplicados, editor de etiquetas | ✕ | en parte | **✓** |
 | Funciona sin internet ni suscripción | ✕ | ✓ | **✓** |
 | No envía nada sobre ti a ningún sitio | ✕ | ✓ | **✓** |
 
@@ -62,16 +64,18 @@ Sin cuentas, sin suscripciones, sin anuncios y sin internet.
 
 ### 💿 Los álbumes, primero
 
-Grimsby está pensado para escuchar álbumes completos. Toda tu colección se ordena por año de lanzamiento, como en MusicBee: una franja de años arriba,
+Grimsby está pensado para escuchar álbumes completos. Toda tu colección se ordena por año de lanzamiento: una franja de años arriba,
 el encabezado del año actual queda fijo en la parte superior y, al hacer clic, abre un calendario para saltar rápido.
-También hay pestañas «Todas las pistas» (ordenables por columna), «Artistas», «Por título», «Por artista» y «Añadidos recientemente».
+También hay pestañas «Todas las pistas» (ordenables por columna), «Artistas», «Por título», «Por artista» y «Añadidos recientemente», además de una franja alfabética.
 
 ![Biblioteca por años](screenshots/es/library-years.jpg)
 
 - **Instantáneo incluso con bibliotecas enormes.** Probado con 23 783 pistas y 1554 álbumes (286 GB): desplazamiento fluido y búsqueda inmediata.
 - **Escanea solo cuando tú quieras:** en cada inicio, una vez al día o manualmente. Los archivos ya conocidos no se vuelven a leer.
 - **MP3, FLAC, ALAC, AAC/M4A, OGG, Opus y WAV.** Grimsby convierte por su cuenta el Apple Lossless que los motores de navegador no reproducen.
+- **Álbumes de varios discos** divididos en «Disco 1», «Disco 2»… con numeración dentro de cada disco.
 - **Artistas invitados** detectados en los títulos — `(feat. …)`, `(ft. …)`, `(with …)` — que también aparecen en sus páginas.
+- **Tamaño de portadas**: grandes, normales o pequeñas, por separado para música y vídeos.
 
 ![Página de álbum](screenshots/es/album.jpg)
 
@@ -91,12 +95,23 @@ Algo que no tiene ningún servicio de streaming. Grimsby organiza tu carpeta de 
 - los archivos marcados con `(Film)` se convierten en **películas del álbum**, y el álbum y su película se recomiendan mutuamente;
 - la carpeta `concerts` se convierte en una sección de conciertos con series (por ejemplo, *Tiny Desk Concert*).
 
-Los videos se reproducen dentro de la app. Puedes encogerlos a una esquina del reproductor, como en Spotify, y seguir navegando.
+Los videos se reproducen dentro de la app. Puedes encogerlos a una esquina del reproductor y seguir navegando.
 Si un archivo usa un códec raro (por ejemplo, AV1 en 4K), Grimsby prepara una copia compatible él solo.
 
 ![Videos con ventana mini](screenshots/es/video-mini.jpg)
 
 ¿No ves videoclips? Desactiva toda la sección con un solo interruptor en los ajustes.
+
+### 🧰 Tu biblioteca, en orden
+
+- **Conversor de archivos**: MP3, AAC (M4A), Opus, OGG, FLAC, ALAC y WAV. Las etiquetas y portadas se conservan. Guarda copias en otra carpeta o sustituye los originales: los archivos antiguos van a la Papelera y tus favoritos y listas pasan a los nuevos. Elige las pistas con casillas.
+- **Buscador de duplicados**: la misma pista en archivos distintos y copias de carpetas de álbumes, con la carpeta, el formato y el bitrate de cada copia. ¿No es un duplicado? Pulsa «Todo en orden» y Grimsby lo recordará.
+- **Salud de la biblioteca** con carita de ánimo 😊 😐 😟: álbumes sin portada, año o género, pistas sin número, archivos ilegibles, y cómo arreglarlo.
+- **Editar detalles**: etiquetas y portada de un álbum entero a la vez, incluida la división en discos. Grimsby hace copia de seguridad antes de cambiar nada.
+
+![Conversor de archivos](screenshots/es/converter.jpg)
+
+![Salud de la biblioteca: duplicados](screenshots/es/health.jpg)
 
 ### 🔊 Sonido de reproductor de verdad
 
@@ -104,14 +119,21 @@ Si un archivo usa un códec raro (por ejemplo, AV1 en 4K), Grimsby prepara una c
 - **Fundido cruzado de 2 a 12 segundos**, que se desactiva solo dentro de un mismo álbum.
 - **Nivelación de volumen (ReplayGain / LUFS)**: inteligente, por pista o por álbum.
 - **Ecualizador de 10 bandas** con preajustes: Hip-hop, R&B, Más graves, Voces, Volumen bajo y más.
-- **Temporizador de apagado, mini reproductor siempre visible, radio por artista, «Reproducir a continuación» y cola con arrastrar y soltar.**
+- **Temporizador de apagado, mini reproductor siempre visible, «Reproducir a continuación» y cola con arrastrar y soltar.**
 - **Pistas largas y mezclas** continúan donde las dejaste.
 
 ![Ecualizador](screenshots/es/equalizer.jpg)
 
+### 📻 Listas que se hacen solas
+
+- **Listas inteligentes**, entre ellas **«Radio: mi mix»** — lo que más escuchas mezclado con música parecida por género y año — y **«Radio del artista»**, un mix en torno a un artista o género.
+- **Tu propio orden** de listas y carpetas en el panel lateral, que se mantiene aunque cambies de orden y vuelvas.
+- Ordena «Pistas favoritas» y listas por número, artista, título, álbum o duración, desde un menú o pulsando los encabezados de columna.
+- Portadas y descripciones propias para las listas.
+
 ### 📊 Estadísticas para amantes de los números
 
-**Escuchas** de la semana, el mes, el año y de siempre: top de artistas, álbumes y pistas por minutos o reproducciones, rachas de días con música.
+**Escuchas** de la semana, el mes, el año y de siempre: top de artistas, álbumes y pistas por minutos o reproducciones, rachas de días con música. Las cifras se actualizan en directo mientras suena la música.
 **Colección**: cuántas pistas, álbumes, géneros, gigabytes y horas de música tienes, qué parte es lossless y cuántos álbumes **nunca has escuchado**.
 
 ![Estadísticas de la colección](screenshots/es/stats-collection.jpg)
@@ -127,9 +149,11 @@ Del 1 de diciembre al 15 de enero, Grimsby te regala tu resumen del año: artist
 
 Español, English, Русский, Português, Deutsch, Français, 中文, 日本語 y 한국어. Por defecto Grimsby usa el idioma de tu Windows; puedes cambiarlo en «Ajustes → Apariencia».
 
-### 🎨 Tema oscuro y claro
+### 🎨 Tema oscuro y claro, colores de la portada
 
-El azul característico de Grimsby, grafito y «papel». Elige un tema o sigue a Windows. Opcionalmente, las páginas de álbum toman los colores de la portada.
+El azul característico de Grimsby, grafito y «papel». Elige un tema o sigue a Windows. La página de un álbum o lista puede tomar los colores de su portada, desde un brillo suave hasta un relleno completo, con un botón de paleta en la propia página.
+
+![Página de álbum con el color de la portada](screenshots/es/album-fill.jpg)
 
 ![Tema claro](screenshots/es/home-light.jpg)
 
@@ -137,7 +161,7 @@ El azul característico de Grimsby, grafito y «papel». Elige un tema o sigue a
 
 ### 🪟 Como en casa en Windows
 
-- icono en la bandeja del sistema con menú, como Spotify;
+- icono en la bandeja del sistema con menú de reproducción;
 - botones anterior / pausa / siguiente en la miniatura de la barra de tareas y teclas multimedia;
 - mini reproductor siempre visible;
 - atajos de teclado para todo;
@@ -145,9 +169,6 @@ El azul característico de Grimsby, grafito y «papel». Elige un tema o sigue a
 
 ### 🛠 Y más
 
-- **Listas y carpetas** con portadas y descripciones propias, «Pistas favoritas», sugerencias inteligentes.
-- **Editor de etiquetas** para un álbum entero a la vez, con copia de seguridad de los archivos antes de cambiarlos.
-- **Salud de la biblioteca**: álbumes sin portada, año o género, pistas sin número, duplicados, archivos ilegibles.
 - **Copia de seguridad** de favoritos, listas e historial en un solo archivo.
 - **Guía integrada «Cómo preparar los archivos»** en lenguaje sencillo.
 - **Actualizaciones a tu manera**: «Solo avisar», «Automáticamente» o «No buscar».
@@ -160,6 +181,7 @@ El azul característico de Grimsby, grafito y «papel». Elige un tema o sigue a
 
 1. Abre la página de la **[última versión](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** y descarga `Grimsby-Player-Setup-X.Y.Z.exe`.
 2. Ejecuta el instalador. Windows puede mostrar la ventana azul «Windows protegió su PC»: es un aviso normal para programas sin firma digital de pago. Pulsa **Más información → Ejecutar de todas formas**.
+   El instalador se ha analizado en VirusTotal: [ninguno de 68 antivirus detecta nada](https://www.virustotal.com/gui/file/5c565d77d2b34a541cc38c9464028a9a490483999d84340947974058d25d8179) (versión 1.4.0).
 3. En el primer inicio, elige tu carpeta de música (y, si quieres, la de videos). Grimsby hace el resto.
 
 **Requisitos:** Windows 10 u 11 (64 bits). Internet solo hace falta para actualizaciones y fotos de artistas opcionales.
@@ -213,6 +235,6 @@ Al reportar un error, indica tu versión de Grimsby («Ajustes → Acerca de»),
 ## Licencias
 
 Grimsby usa componentes de código abierto, entre ellos Electron, React y FFmpeg (GPL v3). La lista completa con licencias y enlaces al código fuente está en la app: «Ajustes → Acerca de».
-Spotify, Apple Music, MusicBee y Deezer se mencionan solo como comparación y pertenecen a sus dueños. Las portadas de las capturas pertenecen a sus titulares y se muestran como ejemplo de una biblioteca personal.
+Deezer es una marca de su propietario. Las portadas de las capturas pertenecen a sus titulares y se muestran como ejemplo de una biblioteca personal.
 
 <p align="center"><sub>Hecho con amor por los álbumes · © 2026 Grimsby</sub></p>
