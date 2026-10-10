@@ -25,7 +25,6 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/gratuit-sans%20pub-111314" alt="Gratuit, sans pub">
-  <img src="https://img.shields.io/badge/langues-9-858A8D" alt="9 langues">
   <a href="https://www.virustotal.com/gui/file/5c565d77d2b34a541cc38c9464028a9a490483999d84340947974058d25d8179"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=t%C3%A9l%C3%A9chargements&color=858A8D" alt="Téléchargements"></a>
 </p>
@@ -81,7 +80,7 @@ On trouve aussi les onglets « Tous les titres » (triables par colonne), « Art
 
 ### 🎤 Toute l’histoire d’un artiste sur une page
 
-Albums, singles, clips, films, concerts et featurings sur une seule page. Grimsby récupère les photos des artistes sur Deezer une seule fois — ensuite tout fonctionne hors ligne.
+Albums, singles, clips, films, concerts et featurings sur une seule page. Grimsby récupère les photos des artistes une seule fois — ensuite tout fonctionne hors ligne.
 La radio de l’artiste et « Regarder toutes les vidéos » sont juste là.
 
 ![Page d’artiste](screenshots/fr/artist.jpg)
@@ -145,10 +144,6 @@ Du 1er décembre au 15 janvier, Grimsby vous offre votre rétrospective : artist
 
 ![Rétrospective de l’année](screenshots/fr/year-recap.jpg)
 
-### 🌍 Neuf langues
-
-Français, English, Русский, Español, Português, Deutsch, 中文, 日本語 et 한국어. Par défaut, Grimsby utilise la langue de votre Windows ; vous pouvez la changer dans « Paramètres → Apparence ».
-
 ### 🎨 Thèmes sombre et clair, couleurs de la pochette
 
 Le bleu signature de Grimsby, le graphite et le « papier ». Choisissez un thème ou suivez Windows. La page d’un album ou d’une playlist peut prendre les couleurs de sa pochette — d’une lueur douce à un remplissage complet — via un bouton palette sur la page même.
@@ -169,6 +164,7 @@ Le bleu signature de Grimsby, le graphite et le « papier ». Choisissez un thè
 
 ### 🛠 Et encore
 
+- **Interface en 9 langues** — par défaut dans la langue de votre Windows.
 - **Sauvegarde** des favoris, playlists et historique dans un seul fichier.
 - **Guide intégré « Préparer les fichiers »** en langage simple.
 - **Mises à jour à votre façon** : « Prévenir seulement », « Automatiquement » ou « Ne pas vérifier ».
@@ -216,7 +212,7 @@ Un guide détaillé se trouve dans l’application : « Paramètres → Prépare
 ## Confidentialité
 
 Grimsby fonctionne **entièrement sur votre ordinateur**. Pas de compte, pas de pub, pas d’analytique. Votre historique d’écoute ne quitte jamais votre PC.
-L’application ne se connecte que pour les mises à jour (GitHub) et — sauf si vous le désactivez — pour les photos d’artistes (Deezer).
+L’application ne se connecte que pour les mises à jour et — sauf si vous le désactivez — pour les photos d’artistes.
 
 ---
 
@@ -235,6 +231,6 @@ Pour signaler un bug, indiquez votre version de Grimsby (« Paramètres → À p
 ## Licences
 
 Grimsby utilise des composants open source, dont Electron, React et FFmpeg (GPL v3). La liste complète avec les textes de licence et les liens vers le code source est dans l’application : « Paramètres → À propos ».
-Deezer est une marque de son propriétaire. Les pochettes des captures appartiennent à leurs ayants droit et illustrent une bibliothèque personnelle.
+Les pochettes des captures appartiennent à leurs ayants droit et illustrent une bibliothèque personnelle.
 
 <p align="center"><sub>Fait avec amour pour les albums · © 2026 Grimsby</sub></p>

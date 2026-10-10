@@ -25,7 +25,6 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/free-no%20ads-111314" alt="Free, no ads">
-  <img src="https://img.shields.io/badge/languages-9-858A8D" alt="9 languages">
   <a href="https://www.virustotal.com/gui/file/5c565d77d2b34a541cc38c9464028a9a490483999d84340947974058d25d8179"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=downloads&color=858A8D" alt="Downloads"></a>
 </p>
@@ -87,7 +86,7 @@ There are also tabs for All tracks (sortable by column), Artists, By title, By a
 
 ### 🎤 An artist's whole story on one page
 
-Albums, singles, music videos, films, concerts and features on a single page. Grimsby fetches artist photos from Deezer once — after that everything works offline.
+Albums, singles, music videos, films, concerts and features on a single page. Grimsby downloads artist photos once — after that everything works offline.
 Artist radio and "Watch all videos" are right there.
 
 ![Artist page](screenshots/en/artist.jpg)
@@ -151,10 +150,6 @@ From December 1 to January 15, Grimsby gives you a yearly recap: artist of the y
 
 ![Year in music](screenshots/en/year-recap.jpg)
 
-### 🌍 Nine languages
-
-English, Русский, Español, Português, Deutsch, Français, 中文, 日本語 and 한국어. By default Grimsby speaks the language of your Windows; you can switch it in Appearance settings.
-
 ### 🎨 Dark and light themes, colors of the cover
 
 Grimsby's signature blue, graphite and "paper". Pick a theme or follow Windows. An album or playlist page can take on the colors of its cover — from a soft glow to a full fill — with a palette button right on the page.
@@ -175,6 +170,7 @@ Grimsby's signature blue, graphite and "paper". Pick a theme or follow Windows. 
 
 ### 🛠 And more
 
+- **Interface in 9 languages** — follows your Windows language by default.
 - **Backup** of likes, playlists and history into a single file.
 - **Built-in guide "How to prepare files"** in plain language.
 - **Updates your way**: notify only, install automatically, or don't check at all.
@@ -226,7 +222,7 @@ There's a detailed guide in the app: Settings → How to prepare files.
 ## Privacy
 
 Grimsby runs **entirely on your computer**. No accounts, no ads, no analytics. Your listening history never leaves your PC.
-The app only goes online for updates (GitHub) and — unless you turn it off — for artist photos (Deezer).
+The app only goes online for updates and — unless you turn it off — for artist photos.
 
 ---
 
@@ -245,6 +241,6 @@ When reporting a bug, please include your Grimsby version (Settings → About), 
 ## Licenses
 
 Grimsby uses open-source components, including Electron, React and FFmpeg (GPL v3). The full list with license texts and links to source code is in the app: Settings → About → Open the license list.
-Deezer is a trademark of its owner. Album covers in the screenshots belong to their rights holders and are shown as an example of a personal library.
+Album covers in the screenshots belong to their rights holders and are shown as an example of a personal library.
 
 <p align="center"><sub>Made with love for albums · © 2026 Grimsby</sub></p>

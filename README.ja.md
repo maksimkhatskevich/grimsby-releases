@@ -25,7 +25,6 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3&color=3F7EAC" alt="バージョン"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E7%84%A1%E6%96%99-%E5%BA%83%E5%91%8A%E3%81%AA%E3%81%97-111314" alt="無料・広告なし">
-  <img src="https://img.shields.io/badge/%E8%A8%80%E8%AA%9E-9-858A8D" alt="9言語">
   <a href="https://www.virustotal.com/gui/file/5c565d77d2b34a541cc38c9464028a9a490483999d84340947974058d25d8179"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89&color=858A8D" alt="ダウンロード数"></a>
 </p>
@@ -81,7 +80,7 @@ Grimsby はアルバムを通して聴くために作られています。コレ
 
 ### 🎤 アーティストのすべてを 1 ページに
 
-アルバム、シングル、MV、映画、ライブ、客演曲をひとつのページに。アーティスト写真は Deezer から一度だけ取得し、その後はすべてオフラインで動きます。
+アルバム、シングル、MV、映画、ライブ、客演曲をひとつのページに。アーティスト写真は一度だけ取得し、その後はすべてオフラインで動きます。
 アーティストラジオや「すべての動画を見る」もここから。
 
 ![アーティストページ](screenshots/ja/artist.jpg)
@@ -145,10 +144,6 @@ MV は見ない？ 設定のスイッチひとつで動画セクションごと�
 
 ![年間の振り返り](screenshots/ja/year-recap.jpg)
 
-### 🌍 9 つの言語
-
-日本語、English、Русский、Español、Português、Deutsch、Français、中文、한국어。既定では Windows の言語で表示され、「設定 → 表示」で切り替えられます。
-
 ### 🎨 ダーク／ライトテーマとジャケットの色
 
 Grimsby を象徴するブルー、グラファイト、そして「紙」の色。テーマを選ぶか、Windows に合わせることができます。アルバムやプレイリストのページをジャケットの色に染められます——やわらかな光から全面塗りまで、ページ上のパレットボタンで切り替え。
@@ -169,6 +164,7 @@ Grimsby を象徴するブルー、グラファイト、そして「紙」の色
 
 ### 🛠 そのほか
 
+- **9 言語に対応した画面**：既定では Windows の言語で表示。
 - **バックアップ**：お気に入り、プレイリスト、履歴をひとつのファイルに。
 - **組み込みガイド「ファイルの準備方法」**：わかりやすい言葉で。
 - **アップデートは好みで**：「通知のみ」「自動」「確認しない」。
@@ -216,7 +212,7 @@ D:\Music\
 ## プライバシー
 
 Grimsby は**すべてあなたのパソコン上で動作します**。アカウントも広告も解析もありません。再生履歴が PC の外に出ることはありません。
-インターネットに接続するのは、アップデートの確認（GitHub）と、オフにしていなければアーティスト写真の取得（Deezer）のときだけです。
+インターネットに接続するのは、アップデートの確認と、オフにしていなければアーティスト写真の取得のときだけです。
 
 ---
 
@@ -235,6 +231,6 @@ Grimsby は**すべてあなたのパソコン上で動作します**。アカ�
 ## ライセンス
 
 Grimsby は Electron、React、FFmpeg（GPL v3）などのオープンソースコンポーネントを使用しています。ライセンス本文とソースコードへのリンクを含む一覧はアプリ内にあります：「設定 → このアプリについて」。
-Deezer は各所有者の商標です。スクリーンショットのジャケットは各権利者に帰属し、個人ライブラリの例として表示しています。
+スクリーンショットのジャケットは各権利者に帰属し、個人ライブラリの例として表示しています。
 
 <p align="center"><sub>アルバムへの愛を込めて · © 2026 Grimsby</sub></p>

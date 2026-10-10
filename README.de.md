@@ -25,7 +25,6 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=Version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/kostenlos-ohne%20Werbung-111314" alt="Kostenlos, ohne Werbung">
-  <img src="https://img.shields.io/badge/Sprachen-9-858A8D" alt="9 Sprachen">
   <a href="https://www.virustotal.com/gui/file/5c565d77d2b34a541cc38c9464028a9a490483999d84340947974058d25d8179"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=Downloads&color=858A8D" alt="Downloads"></a>
 </p>
@@ -81,7 +80,7 @@ Dazu kommen die Tabs „Alle Titel“ (nach Spalten sortierbar), „Interpreten�
 
 ### 🎤 Die ganze Geschichte eines Interpreten auf einer Seite
 
-Alben, Singles, Musikvideos, Filme, Konzerte und Features auf einer Seite. Interpretenfotos lädt Grimsby einmal von Deezer — danach läuft alles offline.
+Alben, Singles, Musikvideos, Filme, Konzerte und Features auf einer Seite. Interpretenfotos lädt Grimsby nur einmal — danach läuft alles offline.
 Interpretenradio und „Alle Videos ansehen“ gibt es direkt dort.
 
 ![Interpretenseite](screenshots/de/artist.jpg)
@@ -145,10 +144,6 @@ Vom 1. Dezember bis 15. Januar schenkt dir Grimsby einen Jahresrückblick: Inter
 
 ![Jahresrückblick](screenshots/de/year-recap.jpg)
 
-### 🌍 Neun Sprachen
-
-Deutsch, English, Русский, Español, Português, Français, 中文, 日本語 und 한국어. Standardmäßig spricht Grimsby die Sprache deines Windows; ändern kannst du sie unter „Einstellungen → Darstellung“.
-
 ### 🎨 Dunkles und helles Design, Farben des Covers
 
 Grimsbys typisches Blau, Graphit und „Papier“. Wähle ein Design oder folge Windows. Album- und Playlistseiten können die Farben ihres Covers annehmen — vom sanften Schimmer bis zur vollflächigen Füllung — per Paletten-Knopf direkt auf der Seite.
@@ -169,6 +164,7 @@ Grimsbys typisches Blau, Graphit und „Papier“. Wähle ein Design oder folge 
 
 ### 🛠 Und noch mehr
 
+- **Oberfläche in 9 Sprachen** — standardmäßig in der Sprache deines Windows.
 - **Backup** von Favoriten, Playlists und Verlauf in einer einzigen Datei.
 - **Eingebaute Anleitung „Dateien vorbereiten“** in einfacher Sprache.
 - **Updates nach deinem Wunsch**: „Nur benachrichtigen“, „Automatisch“ oder „Nicht suchen“.
@@ -216,7 +212,7 @@ Eine ausführliche Anleitung findest du in der App: „Einstellungen → Dateien
 ## Datenschutz
 
 Grimsby läuft **vollständig auf deinem Computer**. Kein Konto, keine Werbung, keine Analyse. Dein Hörverlauf verlässt nie deinen PC.
-Die App geht nur für Updates (GitHub) online und — sofern du es nicht abschaltest — für Interpretenfotos (Deezer).
+Die App geht nur für Updates online und — sofern du es nicht abschaltest — für Interpretenfotos.
 
 ---
 
@@ -235,6 +231,6 @@ Bei Fehlerberichten bitte die Grimsby-Version („Einstellungen → Über“), w
 ## Lizenzen
 
 Grimsby nutzt Open-Source-Komponenten, darunter Electron, React und FFmpeg (GPL v3). Die vollständige Liste mit Lizenztexten und Links zum Quellcode findest du in der App: „Einstellungen → Über“.
-Deezer ist eine Marke ihres Inhabers. Die Cover auf den Screenshots gehören den Rechteinhabern und zeigen beispielhaft eine private Bibliothek.
+Die Cover auf den Screenshots gehören den Rechteinhabern und zeigen beispielhaft eine private Bibliothek.
 
 <p align="center"><sub>Mit Liebe zu Alben gemacht · © 2026 Grimsby</sub></p>

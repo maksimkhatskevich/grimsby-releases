@@ -25,7 +25,6 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%E7%89%88%E6%9C%AC&color=3F7EAC" alt="版本"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E5%85%8D%E8%B4%B9-%E6%97%A0%E5%B9%BF%E5%91%8A-111314" alt="免费，无广告">
-  <img src="https://img.shields.io/badge/%E8%AF%AD%E8%A8%80-9-858A8D" alt="9 种语言">
   <a href="https://www.virustotal.com/gui/file/5c565d77d2b34a541cc38c9464028a9a490483999d84340947974058d25d8179"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%E4%B8%8B%E8%BD%BD&color=858A8D" alt="下载量"></a>
 </p>
@@ -81,7 +80,7 @@ Grimsby 专为完整聆听专辑而设计。整个收藏按发行年份排列：
 
 ### 🎤 一个页面看尽艺人的一切
 
-专辑、单曲、MV、电影、演唱会和合作曲目都在同一页面。Grimsby 只需从 Deezer 获取一次艺人照片，之后全部离线运行。
+专辑、单曲、MV、电影、演唱会和合作曲目都在同一页面。Grimsby 只需获取一次艺人照片，之后全部离线运行。
 艺人电台和「观看全部视频」也在这里。
 
 ![艺人页面](screenshots/zh/artist.jpg)
@@ -145,10 +144,6 @@ Grimsby 专为完整聆听专辑而设计。整个收藏按发行年份排列：
 
 ![年度回顾](screenshots/zh/year-recap.jpg)
 
-### 🌍 九种语言
-
-中文、English、Русский、Español、Português、Deutsch、Français、日本語 和 한국어。Grimsby 默认使用你的 Windows 语言，也可以在「设置 → 外观」中切换。
-
 ### 🎨 深色和浅色主题，封面的颜色
 
 Grimsby 标志性的蓝色、石墨色和「纸张」色。可选择主题或跟随 Windows。专辑或播放列表页面可以呈现封面的颜色——从柔和的光晕到完全填充——用页面上的调色板按钮即可切换。
@@ -169,6 +164,7 @@ Grimsby 标志性的蓝色、石墨色和「纸张」色。可选择主题或跟
 
 ### 🛠 还有更多
 
+- **界面支持 9 种语言**，默认跟随 Windows 语言。
 - **备份**：喜欢、播放列表和历史记录保存为一个文件。
 - **内置指南「如何准备文件」**，语言通俗易懂。
 - **更新方式由你决定**：「仅通知」「自动」或「不检查」。
@@ -216,7 +212,7 @@ D:\Music\
 ## 隐私
 
 Grimsby **完全在你的电脑上运行**。没有账号、没有广告、没有统计分析。你的收听记录永远不会离开你的电脑。
-应用只会为检查更新（GitHub）以及——除非你关闭——获取艺人照片（Deezer）而联网。
+应用只会为检查更新以及——除非你关闭——获取艺人照片而联网。
 
 ---
 
@@ -235,6 +231,6 @@ Grimsby **完全在你的电脑上运行**。没有账号、没有广告、没�
 ## 许可
 
 Grimsby 使用了开源组件，包括 Electron、React 和 FFmpeg（GPL v3）。完整列表、许可文本和源代码链接见应用内：「设置 → 关于」。
-Deezer 是其所有者的商标。截图中的专辑封面归其版权方所有，仅作为个人音乐库的示例展示。
+截图中的专辑封面归其版权方所有，仅作为个人音乐库的示例展示。
 
 <p align="center"><sub>怀着对专辑的热爱制作 · © 2026 Grimsby</sub></p>

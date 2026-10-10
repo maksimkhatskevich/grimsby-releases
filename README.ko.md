@@ -25,7 +25,6 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%EB%B2%84%EC%A0%84&color=3F7EAC" alt="버전"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%EB%AC%B4%EB%A3%8C-%EA%B4%91%EA%B3%A0%20%EC%97%86%EC%9D%8C-111314" alt="무료, 광고 없음">
-  <img src="https://img.shields.io/badge/%EC%96%B8%EC%96%B4-9-858A8D" alt="9개 언어">
   <a href="https://www.virustotal.com/gui/file/5c565d77d2b34a541cc38c9464028a9a490483999d84340947974058d25d8179"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C&color=858A8D" alt="다운로드"></a>
 </p>
@@ -81,7 +80,7 @@ Grimsby는 앨범을 처음부터 끝까지 듣기 위해 만들어졌습니다.
 
 ### 🎤 아티스트의 모든 것을 한 페이지에
 
-앨범, 싱글, 뮤직비디오, 영화, 공연, 피처링 곡을 한 페이지에서. 아티스트 사진은 Deezer에서 한 번만 받아오고, 그다음부터는 모두 오프라인으로 작동합니다.
+앨범, 싱글, 뮤직비디오, 영화, 공연, 피처링 곡을 한 페이지에서. 아티스트 사진은 한 번만 받아오고, 그다음부터는 모두 오프라인으로 작동합니다.
 아티스트 라디오와 「모든 영상 보기」도 바로 여기 있습니다.
 
 ![아티스트 페이지](screenshots/ko/artist.jpg)
@@ -145,10 +144,6 @@ Grimsby는 앨범을 처음부터 끝까지 듣기 위해 만들어졌습니다.
 
 ![연말 결산](screenshots/ko/year-recap.jpg)
 
-### 🌍 9개 언어
-
-한국어, English, Русский, Español, Português, Deutsch, Français, 中文, 日本語. 기본적으로 Windows 언어를 따르며, 「설정 → 모양」에서 바꿀 수 있습니다.
-
 ### 🎨 다크·라이트 테마와 커버의 색
 
 Grimsby의 상징인 블루, 그래파이트, 그리고 「종이」 색. 테마를 고르거나 Windows 설정을 따를 수 있습니다. 앨범이나 플레이리스트 페이지를 커버 색으로 물들일 수 있습니다 — 은은한 빛부터 전체 채우기까지, 페이지의 팔레트 버튼으로 바로 전환합니다.
@@ -169,6 +164,7 @@ Grimsby의 상징인 블루, 그래파이트, 그리고 「종이」 색. 테마
 
 ### 🛠 그 밖에도
 
+- **9개 언어 지원 화면**: 기본적으로 Windows 언어를 따릅니다.
 - **백업**: 좋아요, 플레이리스트, 기록을 파일 하나로.
 - **내장 가이드 「파일 준비 방법」**: 쉬운 말로 설명합니다.
 - **업데이트는 원하는 방식으로**: 「알림만」, 「자동」, 「확인 안 함」.
@@ -216,7 +212,7 @@ D:\Music\
 ## 개인정보
 
 Grimsby는 **전부 내 컴퓨터에서 작동합니다**. 계정, 광고, 분석이 없습니다. 감상 기록은 절대 PC 밖으로 나가지 않습니다.
-앱이 인터넷에 연결하는 것은 업데이트 확인(GitHub)과, 끄지 않았다면 아티스트 사진(Deezer)뿐입니다.
+앱이 인터넷에 연결하는 것은 업데이트 확인과, 끄지 않았다면 아티스트 사진뿐입니다.
 
 ---
 
@@ -235,6 +231,6 @@ Grimsby는 **전부 내 컴퓨터에서 작동합니다**. 계정, 광고, 분�
 ## 라이선스
 
 Grimsby는 Electron, React, FFmpeg(GPL v3) 등 오픈 소스 구성 요소를 사용합니다. 라이선스 전문과 소스 코드 링크가 포함된 전체 목록은 앱 안에 있습니다: 「설정 → 정보」.
-Deezer는 해당 소유자의 상표입니다. 스크린샷의 앨범 커버는 각 권리자에게 속하며 개인 라이브러리의 예시로 표시되었습니다.
+스크린샷의 앨범 커버는 각 권리자에게 속하며 개인 라이브러리의 예시로 표시되었습니다.
 
 <p align="center"><sub>앨범을 사랑하는 마음으로 만들었습니다 · © 2026 Grimsby</sub></p>
