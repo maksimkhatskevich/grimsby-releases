@@ -11,10 +11,8 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/icon.png" width="96" alt="Grimsby Player">
+  <img src="screenshots/banner.jpg" alt="Grimsby Player">
 </p>
-
-<h1 align="center">Grimsby Player</h1>
 
 <p align="center">
   <b>音楽をダウンロードして集める人のためのオフラインプレーヤー。</b><br>
@@ -214,6 +212,18 @@ D:\Music\
 
 Grimsby は**すべてあなたのパソコン上で動作します**。アカウントも広告も解析もありません。再生履歴が PC の外に出ることはありません。
 インターネットに接続するのは、アップデートの確認と、オフにしていなければアーティスト写真の取得のときだけです。
+
+---
+
+## Grimsby ファミリー
+
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><sub>このページ</sub></td>
+    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>動画・音声・写真・文書をオフラインで変換</sub></td>
+    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>タグ一括編集：アルバム、カバー、ファイル名</sub></td>
+  </tr>
+</table>
 
 ---
 

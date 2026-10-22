@@ -11,10 +11,8 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/icon.png" width="96" alt="Grimsby Player">
+  <img src="screenshots/banner.jpg" alt="Grimsby Player">
 </p>
-
-<h1 align="center">Grimsby Player</h1>
 
 <p align="center">
   <b>Um player offline para quem baixa e coleciona música.</b><br>
@@ -214,6 +212,18 @@ Há um guia detalhado no app: «Configurações → Como preparar os arquivos».
 
 O Grimsby funciona **inteiramente no seu computador**. Sem contas, sem anúncios, sem analytics. Seu histórico de escuta nunca sai do seu PC.
 O app só se conecta para buscar atualizações e — se você não desligar — fotos de artistas.
+
+---
+
+## A família Grimsby
+
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><sub>Você está aqui</sub></td>
+    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Vídeo, áudio, fotos e documentos, offline</sub></td>
+    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Editor de tags em lote: álbuns, capas, nomes de arquivos</sub></td>
+  </tr>
+</table>
 
 ---
 

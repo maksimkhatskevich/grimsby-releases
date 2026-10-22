@@ -11,10 +11,8 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/icon.png" width="96" alt="Grimsby Player">
+  <img src="screenshots/banner.jpg" alt="Grimsby Player">
 </p>
-
-<h1 align="center">Grimsby Player</h1>
 
 <p align="center">
   <b>An offline player for people who download and collect music.</b><br>
@@ -224,6 +222,18 @@ There's a detailed guide in the app: Settings → How to prepare files.
 
 Grimsby runs **entirely on your computer**. No accounts, no ads, no analytics. Your listening history never leaves your PC.
 The app only goes online for updates and — unless you turn it off — for artist photos.
+
+---
+
+## Grimsby family
+
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><sub>You are here</sub></td>
+    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Video, audio, photos and documents — offline</sub></td>
+    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Batch tag editor: albums, covers, file names</sub></td>
+  </tr>
+</table>
 
 ---
 

@@ -11,10 +11,8 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/icon.png" width="96" alt="Grimsby Player">
+  <img src="screenshots/banner.jpg" alt="Grimsby Player">
 </p>
-
-<h1 align="center">Grimsby Player</h1>
 
 <p align="center">
   <b>Офлайн-плеер для тех, кто скачивает и собирает музыку.</b><br>
@@ -223,6 +221,18 @@ D:\Music\
 
 Grimsby работает **полностью на вашем компьютере**. В нём нет аккаунтов, рекламы и аналитики. Ваша история прослушиваний никуда не отправляется.
 В интернет программа выходит только за обновлениями и, если вы не отключили эту функцию, за фото исполнителей.
+
+---
+
+## Семейство Grimsby
+
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><sub>Вы здесь</sub></td>
+    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ru.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Видео, аудио, фото и документы — офлайн</sub></td>
+    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ru.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Пакетный редактор тегов: альбомы, обложки, имена файлов</sub></td>
+  </tr>
+</table>
 
 ---
 

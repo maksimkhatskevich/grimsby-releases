@@ -11,10 +11,8 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/icon.png" width="96" alt="Grimsby Player">
+  <img src="screenshots/banner.jpg" alt="Grimsby Player">
 </p>
-
-<h1 align="center">Grimsby Player</h1>
 
 <p align="center">
   <b>음악을 내려받고 모으는 사람들을 위한 오프라인 플레이어.</b><br>
@@ -214,6 +212,18 @@ D:\Music\
 
 Grimsby는 **전부 내 컴퓨터에서 작동합니다**. 계정, 광고, 분석이 없습니다. 감상 기록은 절대 PC 밖으로 나가지 않습니다.
 앱이 인터넷에 연결하는 것은 업데이트 확인과, 끄지 않았다면 아티스트 사진뿐입니다.
+
+---
+
+## Grimsby 패밀리
+
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><sub>현재 페이지</sub></td>
+    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>영상, 오디오, 사진, 문서를 오프라인으로 변환</sub></td>
+    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>태그 일괄 편집: 앨범, 커버, 파일 이름</sub></td>
+  </tr>
+</table>
 
 ---
 

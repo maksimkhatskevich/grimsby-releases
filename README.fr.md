@@ -11,10 +11,8 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/icon.png" width="96" alt="Grimsby Player">
+  <img src="screenshots/banner.jpg" alt="Grimsby Player">
 </p>
-
-<h1 align="center">Grimsby Player</h1>
 
 <p align="center">
   <b>Un lecteur hors ligne pour ceux qui téléchargent et collectionnent la musique.</b><br>
@@ -214,6 +212,18 @@ Un guide détaillé se trouve dans l’application : « Paramètres → Prépare
 
 Grimsby fonctionne **entièrement sur votre ordinateur**. Pas de compte, pas de pub, pas d’analytique. Votre historique d’écoute ne quitte jamais votre PC.
 L’application ne se connecte que pour les mises à jour et — sauf si vous le désactivez — pour les photos d’artistes.
+
+---
+
+## La famille Grimsby
+
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><sub>Vous êtes ici</sub></td>
+    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Vidéo, audio, photos et documents, hors ligne</sub></td>
+    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Éditeur de tags par lots : albums, pochettes, noms de fichiers</sub></td>
+  </tr>
+</table>
 
 ---
 
