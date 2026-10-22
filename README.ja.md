@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3&color=3F7EAC" alt="バージョン"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E7%84%A1%E6%96%99-%E5%BA%83%E5%91%8A%E3%81%AA%E3%81%97-111314" alt="無料・広告なし">
-  <a href="https://www.virustotal.com/gui/file/f2faca01e51018ca4612d99a4de664042d62237455619f79ec1fbcc485223eb0"><img src="https://img.shields.io/badge/VirusTotal-0%2F65-2E7D32" alt="VirusTotal 0/65"></a>
+  <a href="https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89&color=858A8D" alt="ダウンロード数"></a>
 </p>
 
@@ -133,8 +133,11 @@ MV は見ない？ 設定のスイッチひとつで動画セクションごと�
 
 **再生**：週・月・年・全期間。分数や再生回数によるアーティスト・アルバム・曲のランキング、音楽を聴いた連続日数。数字は再生中にリアルタイムで更新されます。
 **コレクション**：曲数、アルバム数、ジャンル数、容量、総再生時間、ロスレスの割合——そして**一度も再生していない**アルバムの数。
+**アルバムの統計**：どのアルバムでも、どれくらいの頻度で聴いているか、実際にどこまで聴いているか、どの曲を飛ばしているかがわかります。過去の週・月・年は矢印でさかのぼれます。
 
 ![コレクションの統計](screenshots/ja/stats-collection.jpg)
+
+![アルバムの統計](screenshots/ja/album-stats.jpg)
 
 ### 🎁 年間の振り返り
 
@@ -176,7 +179,7 @@ Grimsby を象徴するブルー、グラファイト、そして「紙」の色
 
 1. **[最新バージョン](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)**のページを開き、`Grimsby-Player-Setup-X.Y.Z.exe` をダウンロードします。
 2. インストーラーを実行します。Windows に青い「Windows によって PC が保護されました」画面が表示されることがあります。これは有料のコード署名がないアプリでよく出る警告です。**詳細情報 → 実行** をクリックしてください。
-   インストーラーは VirusTotal で確認済みです：[65 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/f2faca01e51018ca4612d99a4de664042d62237455619f79ec1fbcc485223eb0)（バージョン 1.5.0）。
+   インストーラーは VirusTotal で確認済みです：[67 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2)（バージョン 1.6.0）。
 3. 初回起動時に音楽フォルダー（必要なら動画フォルダーも）を選べば、あとは Grimsby におまかせです。
 
 **動作環境：** Windows 10 または 11（64 ビット）。インターネットはアップデートと任意のアーティスト写真にのみ使います。

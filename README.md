@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/free-no%20ads-111314" alt="Free, no ads">
-  <a href="https://www.virustotal.com/gui/file/f2faca01e51018ca4612d99a4de664042d62237455619f79ec1fbcc485223eb0"><img src="https://img.shields.io/badge/VirusTotal-0%2F65-2E7D32" alt="VirusTotal 0/65"></a>
+  <a href="https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -139,8 +139,11 @@ Don't watch videos? Turn the whole section off with a single switch in settings.
 
 **Listening** for the week, month, year and all time: top artists, albums and tracks by minutes or plays, listening streaks. The numbers update live while music plays.
 **Collection**: how many tracks, albums, genres, gigabytes and hours of music you have, what share is lossless — and how many albums you've **never played**.
+**Album stats**: open any album to see how often you play it, how much of it you actually hear and which tracks you skip. Flip back through past weeks, months and years with the arrows.
 
 ![Collection stats](screenshots/en/stats-collection.jpg)
+
+![Album stats](screenshots/en/album-stats.jpg)
 
 ### 🎁 Your year in music
 
@@ -182,7 +185,7 @@ Grimsby's signature blue, graphite and "paper". Pick a theme or follow Windows. 
 
 1. Open the **[latest release](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** page and download `Grimsby-Player-Setup-X.Y.Z.exe`.
 2. Run the installer. Windows may show a blue "Windows protected your PC" window — that's a normal warning for apps without a paid code-signing certificate. Click **More info → Run anyway**.
-   The installer has been checked on VirusTotal: [0 of 65 antivirus engines flag it](https://www.virustotal.com/gui/file/f2faca01e51018ca4612d99a4de664042d62237455619f79ec1fbcc485223eb0) (version 1.5.0).
+   The installer has been checked on VirusTotal: [0 of 67 antivirus engines flag it](https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2) (version 1.6.0).
 3. On first launch, pick your music folder (and, if you like, your videos folder). Grimsby takes care of the rest.
 
 **Requirements:** Windows 10 or 11 (64-bit). Internet is only needed for updates and optional artist photos.

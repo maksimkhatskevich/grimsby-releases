@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%EB%B2%84%EC%A0%84&color=3F7EAC" alt="버전"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%EB%AC%B4%EB%A3%8C-%EA%B4%91%EA%B3%A0%20%EC%97%86%EC%9D%8C-111314" alt="무료, 광고 없음">
-  <a href="https://www.virustotal.com/gui/file/f2faca01e51018ca4612d99a4de664042d62237455619f79ec1fbcc485223eb0"><img src="https://img.shields.io/badge/VirusTotal-0%2F65-2E7D32" alt="VirusTotal 0/65"></a>
+  <a href="https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C&color=858A8D" alt="다운로드"></a>
 </p>
 
@@ -133,8 +133,11 @@ Grimsby는 앨범을 처음부터 끝까지 듣기 위해 만들어졌습니다.
 
 **감상**: 이번 주, 이번 달, 올해, 전체 기간. 분 또는 재생 횟수 기준 인기 아티스트·앨범·곡, 음악과 함께한 연속 일수. 숫자는 음악이 재생되는 동안 실시간으로 바뀝니다.
 **컬렉션**: 곡, 앨범, 장르, 용량, 총 재생 시간, 무손실 비율 — 그리고 **한 번도 재생하지 않은** 앨범 수까지.
+**앨범 통계**: 어떤 앨범이든 얼마나 자주 듣는지, 실제로 얼마나 끝까지 듣는지, 어떤 곡을 건너뛰는지 볼 수 있습니다. 지난 주·월·년은 화살표로 넘겨 볼 수 있습니다.
 
 ![컬렉션 통계](screenshots/ko/stats-collection.jpg)
+
+![앨범 통계](screenshots/ko/album-stats.jpg)
 
 ### 🎁 연말 결산
 
@@ -176,7 +179,7 @@ Grimsby의 상징인 블루, 그래파이트, 그리고 「종이」 색. 테마
 
 1. **[최신 버전](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** 페이지를 열고 `Grimsby-Player-Setup-X.Y.Z.exe`를 내려받습니다.
 2. 설치 프로그램을 실행합니다. Windows가 파란색 「Windows의 PC 보호」 창을 띄울 수 있는데, 유료 코드 서명이 없는 프로그램에서 흔히 나오는 경고입니다. **추가 정보 → 실행** 을 누르세요.
-   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 65개 모두 이상 없음](https://www.virustotal.com/gui/file/f2faca01e51018ca4612d99a4de664042d62237455619f79ec1fbcc485223eb0) (버전 1.5.0).
+   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 67개 모두 이상 없음](https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2) (버전 1.6.0).
 3. 처음 실행할 때 음악 폴더(원하면 영상 폴더도)를 선택하면, 나머지는 Grimsby가 알아서 합니다.
 
 **요구 사항:** Windows 10 또는 11 (64비트). 인터넷은 업데이트와 선택 사항인 아티스트 사진에만 필요합니다.

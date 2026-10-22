@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/gratuit-sans%20pub-111314" alt="Gratuit, sans pub">
-  <a href="https://www.virustotal.com/gui/file/f2faca01e51018ca4612d99a4de664042d62237455619f79ec1fbcc485223eb0"><img src="https://img.shields.io/badge/VirusTotal-0%2F65-2E7D32" alt="VirusTotal 0/65"></a>
+  <a href="https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=t%C3%A9l%C3%A9chargements&color=858A8D" alt="Téléchargements"></a>
 </p>
 
@@ -133,8 +133,11 @@ Vous ne regardez pas de clips ? Désactivez toute la section d’un seul interru
 
 **Écoutes** de la semaine, du mois, de l’année et depuis toujours : top artistes, albums et titres en minutes ou en lectures, séries de jours en musique. Les chiffres se mettent à jour en direct pendant l’écoute.
 **Collection** : combien de titres, d’albums, de genres, de gigaoctets et d’heures de musique vous avez, quelle part est en lossless — et combien d’albums vous n’avez **jamais écoutés**.
+**Statistiques d’album** : ouvrez n’importe quel album pour voir à quelle fréquence vous l’écoutez, quelle part vous en entendez vraiment et quels titres vous passez. Les flèches permettent de remonter les semaines, mois et années passés.
 
 ![Statistiques de la collection](screenshots/fr/stats-collection.jpg)
+
+![Statistiques de l’album](screenshots/fr/album-stats.jpg)
 
 ### 🎁 Rétrospective de l’année
 
@@ -176,7 +179,7 @@ Le bleu signature de Grimsby, le graphite et le « papier ». Choisissez un thè
 
 1. Ouvrez la page de la **[dernière version](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** et téléchargez `Grimsby-Player-Setup-X.Y.Z.exe`.
 2. Lancez l’installeur. Windows peut afficher la fenêtre bleue « Windows a protégé votre ordinateur » — un avertissement habituel pour les logiciels sans signature payante. Cliquez sur **Informations complémentaires → Exécuter quand même**.
-   L’installeur a été vérifié sur VirusTotal : [aucun des 65 antivirus ne détecte quoi que ce soit](https://www.virustotal.com/gui/file/f2faca01e51018ca4612d99a4de664042d62237455619f79ec1fbcc485223eb0) (version 1.5.0).
+   L’installeur a été vérifié sur VirusTotal : [aucun des 67 antivirus ne détecte quoi que ce soit](https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2) (version 1.6.0).
 3. Au premier lancement, choisissez votre dossier de musique (et, si vous voulez, celui des vidéos). Grimsby s’occupe du reste.
 
 **Configuration requise :** Windows 10 ou 11 (64 bits). Internet n’est nécessaire que pour les mises à jour et les photos d’artistes facultatives.
