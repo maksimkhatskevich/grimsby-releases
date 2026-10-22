@@ -218,11 +218,11 @@ Grimsby **完全在你的电脑上运行**。没有账号、没有广告、没�
 
 ---
 
-## Grimsby 家族
+## Grimsby 应用
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><sub>当前页面</sub></td>
+    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-zh.svg" alt="当前页面"></td>
     <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>视频、音频、照片和文档，离线转换</sub></td>
     <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>批量标签编辑：专辑、封面、文件名</sub></td>
   </tr>

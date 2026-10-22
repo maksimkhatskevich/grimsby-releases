@@ -218,11 +218,11 @@ Grimsby는 **전부 내 컴퓨터에서 작동합니다**. 계정, 광고, 분�
 
 ---
 
-## Grimsby 패밀리
+## Grimsby 앱
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><sub>현재 페이지</sub></td>
+    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-ko.svg" alt="현재 페이지"></td>
     <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>영상, 오디오, 사진, 문서를 오프라인으로 변환</sub></td>
     <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>태그 일괄 편집: 앨범, 커버, 파일 이름</sub></td>
   </tr>

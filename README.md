@@ -228,11 +228,11 @@ The app only goes online for updates and — unless you turn it off — for arti
 
 ---
 
-## Grimsby family
+## Grimsby apps
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><sub>You are here</sub></td>
+    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-en.svg" alt="You are here"></td>
     <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Video, audio, photos and documents — offline</sub></td>
     <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Batch tag editor: albums, covers, file names</sub></td>
   </tr>

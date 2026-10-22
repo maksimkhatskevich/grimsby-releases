@@ -218,11 +218,11 @@ Die App geht nur für Updates online und — sofern du es nicht abschaltest — 
 
 ---
 
-## Die Grimsby-Familie
+## Grimsby-Apps
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><sub>Du bist hier</sub></td>
+    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-de.svg" alt="Du bist hier"></td>
     <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Video, Audio, Fotos und Dokumente – offline</sub></td>
     <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Tag-Editor für ganze Alben: Tags, Cover, Dateinamen</sub></td>
   </tr>

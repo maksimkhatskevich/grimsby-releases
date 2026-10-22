@@ -218,11 +218,11 @@ L’application ne se connecte que pour les mises à jour et — sauf si vous le
 
 ---
 
-## La famille Grimsby
+## Les applis Grimsby
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><sub>Vous êtes ici</sub></td>
+    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-fr.svg" alt="Vous êtes ici"></td>
     <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Vidéo, audio, photos et documents, hors ligne</sub></td>
     <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Éditeur de tags par lots : albums, pochettes, noms de fichiers</sub></td>
   </tr>
