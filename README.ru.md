@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=3F7EAC" alt="Версия"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE-%D0%B1%D0%B5%D0%B7%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B-111314" alt="Бесплатно, без рекламы">
-  <a href="https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=858A8D" alt="Скачивания"></a>
 </p>
 
@@ -169,6 +169,12 @@ Grimsby рассчитан на прослушивание альбомами. �
 - горячие клавиши для всего;
 - окно открывается таким, каким вы его закрыли.
 
+### 🧩 Программы Grimsby прямо в плеере
+
+В «Настройки → О программе» появились блок **«Обратная связь»** (Telegram, почта, GitHub) и **«Программы Grimsby»**: Grimsby Converter и Grimsby Tagger с описанием и скриншотами. Скачать и установить — в один клик.
+
+![Программы Grimsby в «О программе»](screenshots/ru/apps.jpg)
+
 ### 🛠 И ещё
 
 - **Интерфейс на 9 языках** — по умолчанию на языке Windows.
@@ -184,7 +190,7 @@ Grimsby рассчитан на прослушивание альбомами. �
 
 1. Откройте страницу **[последней версии](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** и скачайте файл `Grimsby-Player-Setup-X.Y.Z.exe`.
 2. Запустите установщик. Windows может показать синее окно «Windows защитила ваш компьютер». Это обычное предупреждение для программ без платной цифровой подписи. Нажмите **«Подробнее» → «Выполнить в любом случае»**.
-   Установщик проверен на VirusTotal: [ни один из 67 антивирусов ничего не нашёл](https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2) (версия 1.6.0).
+   Установщик проверен на VirusTotal: [ни один из 67 антивирусов ничего не нашёл](https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917) (версия 1.7.0).
 3. При первом запуске укажите папку с музыкой (и, если хотите, с клипами). Остальное Grimsby сделает сам.
 
 **Требования:** Windows 10 или 11 (64 бит). Интернет нужен только для обновлений и необязательных фото исполнителей.

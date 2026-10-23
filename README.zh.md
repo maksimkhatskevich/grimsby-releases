@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%E7%89%88%E6%9C%AC&color=3F7EAC" alt="版本"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E5%85%8D%E8%B4%B9-%E6%97%A0%E5%B9%BF%E5%91%8A-111314" alt="免费，无广告">
-  <a href="https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%E4%B8%8B%E8%BD%BD&color=858A8D" alt="下载量"></a>
 </p>
 
@@ -164,6 +164,12 @@ Grimsby 标志性的蓝色、石墨色和「纸张」色。可选择主题或跟
 - 所有操作都有快捷键；
 - 窗口会按你关闭时的样子重新打开。
 
+### 🧩 播放器里的 Grimsby 应用
+
+“设置 → 关于”中新增了 **反馈**（Telegram、邮箱、GitHub）和 **Grimsby 应用**：Grimsby Converter 和 Grimsby Tagger 的介绍与截图，一键下载安装。
+
+![“关于”中的 Grimsby 应用](screenshots/zh/apps.jpg)
+
 ### 🛠 还有更多
 
 - **界面支持 9 种语言**，默认跟随 Windows 语言。
@@ -179,7 +185,7 @@ Grimsby 标志性的蓝色、石墨色和「纸张」色。可选择主题或跟
 
 1. 打开**[最新版本](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)**页面，下载 `Grimsby-Player-Setup-X.Y.Z.exe`。
 2. 运行安装程序。Windows 可能会弹出蓝色的「Windows 已保护你的电脑」窗口——这是没有付费代码签名的程序常见的提示。点击**更多信息 → 仍要运行**。
-   安装程序已在 VirusTotal 上检测：[67 款杀毒引擎均未发现问题](https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2)（1.6.0 版）。
+   安装程序已在 VirusTotal 上检测：[67 款杀毒引擎均未发现问题](https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917)（1.7.0 版）。
 3. 首次启动时选择你的音乐文件夹（如果需要，也可以选择视频文件夹），其余交给 Grimsby。
 
 **系统要求：** Windows 10 或 11（64 位）。只有更新和可选的艺人照片需要联网。

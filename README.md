@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/free-no%20ads-111314" alt="Free, no ads">
-  <a href="https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -170,6 +170,12 @@ Grimsby's signature blue, graphite and "paper". Pick a theme or follow Windows. 
 - keyboard shortcuts for everything;
 - the window reopens exactly the way you left it.
 
+### 🧩 Grimsby apps, right in the player
+
+Settings → About now has a **Feedback** block (Telegram, email, GitHub) and **Grimsby apps**: Grimsby Converter and Grimsby Tagger with descriptions and screenshots. Download and install them in one click.
+
+![Grimsby apps in About](screenshots/en/apps.jpg)
+
 ### 🛠 And more
 
 - **Interface in 9 languages** — follows your Windows language by default.
@@ -185,7 +191,7 @@ Grimsby's signature blue, graphite and "paper". Pick a theme or follow Windows. 
 
 1. Open the **[latest release](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** page and download `Grimsby-Player-Setup-X.Y.Z.exe`.
 2. Run the installer. Windows may show a blue "Windows protected your PC" window — that's a normal warning for apps without a paid code-signing certificate. Click **More info → Run anyway**.
-   The installer has been checked on VirusTotal: [0 of 67 antivirus engines flag it](https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2) (version 1.6.0).
+   The installer has been checked on VirusTotal: [0 of 67 antivirus engines flag it](https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917) (version 1.7.0).
 3. On first launch, pick your music folder (and, if you like, your videos folder). Grimsby takes care of the rest.
 
 **Requirements:** Windows 10 or 11 (64-bit). Internet is only needed for updates and optional artist photos.

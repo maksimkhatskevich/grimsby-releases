@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/gratuit-sans%20pub-111314" alt="Gratuit, sans pub">
-  <a href="https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=t%C3%A9l%C3%A9chargements&color=858A8D" alt="Téléchargements"></a>
 </p>
 
@@ -164,6 +164,12 @@ Le bleu signature de Grimsby, le graphite et le « papier ». Choisissez un thè
 - raccourcis clavier pour tout ;
 - la fenêtre se rouvre exactement comme vous l’avez laissée.
 
+### 🧩 Les applis Grimsby, dans le lecteur
+
+Réglages → À propos contient désormais un bloc **Contact** (Telegram, e-mail, GitHub) et **Les applis Grimsby** : Grimsby Converter et Grimsby Tagger avec description et captures. Téléchargement et installation en un clic.
+
+![Les applis Grimsby dans À propos](screenshots/fr/apps.jpg)
+
 ### 🛠 Et encore
 
 - **Interface en 9 langues** — par défaut dans la langue de votre Windows.
@@ -179,7 +185,7 @@ Le bleu signature de Grimsby, le graphite et le « papier ». Choisissez un thè
 
 1. Ouvrez la page de la **[dernière version](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** et téléchargez `Grimsby-Player-Setup-X.Y.Z.exe`.
 2. Lancez l’installeur. Windows peut afficher la fenêtre bleue « Windows a protégé votre ordinateur » — un avertissement habituel pour les logiciels sans signature payante. Cliquez sur **Informations complémentaires → Exécuter quand même**.
-   L’installeur a été vérifié sur VirusTotal : [aucun des 67 antivirus ne détecte quoi que ce soit](https://www.virustotal.com/gui/file/d6bd8db71064dd5830ce2958f29b78fa2d794ce9a42b4cc413e3feec340848d2) (version 1.6.0).
+   L’installeur a été vérifié sur VirusTotal : [aucun des 67 antivirus ne détecte quoi que ce soit](https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917) (version 1.7.0).
 3. Au premier lancement, choisissez votre dossier de musique (et, si vous voulez, celui des vidéos). Grimsby s’occupe du reste.
 
 **Configuration requise :** Windows 10 ou 11 (64 bits). Internet n’est nécessaire que pour les mises à jour et les photos d’artistes facultatives.
