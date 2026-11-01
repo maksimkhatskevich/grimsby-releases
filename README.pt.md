@@ -15,8 +15,8 @@
 </p>
 
 <p align="center">
-  <b>Um player offline para quem baixa e coleciona música.</b><br>
-  Sua biblioteca parece um serviço de streaming — mas tudo fica no seu próprio disco, e não no servidor de outra pessoa.
+  <b>O álbum inteiro. E tudo ao redor dele.</b><br>
+  Clipes, filmes de álbum e shows ao lado de cada álbum — tudo da sua própria biblioteca.
 </p>
 
 <p align="center">
@@ -35,7 +35,9 @@
 
 ---
 
-## Por que o Grimsby
+## Álbuns, do jeito que os artistas criaram
+
+Para o Grimsby, um álbum é uma obra inteira, não um monte de faixas. Um vídeo na pasta de um álbum vira o clipe dele; filmes de álbum e shows ficam ao lado da música.
 
 Se você baixa álbuns em FLAC, coleciona discografias e guarda clipes e shows, conhece o problema.
 Os serviços de streaming são bonitos, mas a sua música não está lá: lançamentos raros, rips de qualidade, vídeos que sumiram do YouTube.

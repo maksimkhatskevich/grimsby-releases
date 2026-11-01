@@ -15,8 +15,8 @@
 </p>
 
 <p align="center">
-  <b>Un lecteur hors ligne pour ceux qui téléchargent et collectionnent la musique.</b><br>
-  Votre bibliothèque ressemble à un service de streaming — mais tout reste sur votre propre disque, pas sur le serveur de quelqu’un d’autre.
+  <b>L’album en entier. Et tout ce qui l’entoure.</b><br>
+  Clips, films d’album et concerts à côté de chaque album — le tout depuis votre propre bibliothèque.
 </p>
 
 <p align="center">
@@ -35,7 +35,9 @@
 
 ---
 
-## Pourquoi Grimsby
+## Les albums, tels que les artistes les ont pensés
+
+Pour Grimsby, un album est une œuvre entière, pas un tas de titres. Une vidéo dans le dossier d’un album devient son clip ; films d’album et concerts sont à côté de la musique.
 
 Si vous téléchargez des albums en FLAC, collectionnez des discographies et gardez des clips et des concerts, vous connaissez le problème.
 Les services de streaming sont beaux, mais votre musique n’y est pas : sorties rares, rips de qualité, clips disparus de YouTube.

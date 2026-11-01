@@ -15,8 +15,8 @@
 </p>
 
 <p align="center">
-  <b>Ein Offline-Player für alle, die Musik herunterladen und sammeln.</b><br>
-  Deine Bibliothek sieht aus wie ein Streamingdienst — aber alles liegt auf deiner eigenen Festplatte, nicht auf fremden Servern.
+  <b>Das ganze Album. Und alles drumherum.</b><br>
+  Musikvideos, Albumfilme und Konzerte neben jedem Album – alles aus deiner eigenen Bibliothek.
 </p>
 
 <p align="center">
@@ -35,7 +35,9 @@
 
 ---
 
-## Warum Grimsby
+## Alben, so wie Künstler sie gedacht haben
+
+Für Grimsby ist ein Album ein ganzes Werk, kein Haufen Titel. Ein Video im Albumordner wird zum Musikvideo des Albums; Albumfilme und Konzerte stehen neben der Musik.
 
 Wer Alben in FLAC lädt, Diskografien sammelt und Musikvideos und Konzerte aufbewahrt, kennt das Problem.
 Streamingdienste sehen toll aus, aber deine Musik ist dort nicht: seltene Releases, hochwertige Rips, Videos, die von YouTube verschwunden sind.
