@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/gratuit-sans%20pub-111314" alt="Gratuit, sans pub">
-  <a href="https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=t%C3%A9l%C3%A9chargements&color=858A8D" alt="Téléchargements"></a>
 </p>
 
@@ -40,7 +40,7 @@
 Pour Grimsby, un album est une œuvre entière, pas un tas de titres. Une vidéo dans le dossier d’un album devient son clip ; films d’album et concerts sont à côté de la musique.
 
 Si vous téléchargez des albums en FLAC, collectionnez des discographies et gardez des clips et des concerts, vous connaissez le problème.
-Les services de streaming sont beaux, mais votre musique n’y est pas : sorties rares, rips de qualité, clips disparus de YouTube.
+Les services de streaming sont beaux, mais votre musique n’y est pas : sorties rares, rips de qualité, clips disparus d’internet.
 Les lecteurs classiques gèrent très bien vos fichiers — mais leur interface semble dater de 2008.
 
 **Grimsby réunit les deux.** Indiquez votre dossier de musique et, une minute plus tard, votre collection devient une superbe bibliothèque :
@@ -56,6 +56,10 @@ Sans compte, sans abonnement, sans pub et sans Internet.
 | Convertisseur, recherche de doublons, éditeur de tags | ✕ | en partie | **✓** |
 | Fonctionne hors ligne, sans abonnement | ✕ | ✓ | **✓** |
 | N’envoie rien sur vous nulle part | ✕ | ✓ | **✓** |
+
+**Pas fan des albums ?** Passez la bibliothèque en **Titres seulement** dans les Paramètres — Grimsby devient un simple lecteur de titres, sans pages d’album.
+
+![Titres seulement](screenshots/fr/tracks-only.jpg)
 
 ---
 
@@ -85,6 +89,18 @@ La radio de l’artiste et « Regarder toutes les vidéos » sont juste là.
 
 ![Page d’artiste](screenshots/fr/artist.jpg)
 
+### 📈 Chronologie des albums
+
+Tous les albums d’un artiste sur une ligne du temps graduée par années : le temps écoulé entre les sorties, la plus longue pause et le nombre de jours depuis le dernier album. Cliquez sur deux albums pour voir le temps qui les sépare. Elle s’ouvre avec le bouton **Chronologie** sur la page de l’artiste ou depuis le calendrier des sorties complet.
+
+![Chronologie des albums d’un artiste](screenshots/fr/timeline.jpg)
+
+### 🔎 Recherche par genre et paroles
+
+La recherche trouve non seulement les titres et les artistes, mais aussi les genres et les lignes des paroles — depuis les tags et les fichiers .lrc à côté du morceau. Les résultats montrent où se trouve la correspondance. La casse ne compte pas, et si une faute de frappe ne donne rien, Grimsby montre le plus proche. Les genres comptent désormais séparément : « Pop, Hip-Hop », ce sont deux genres dans les statistiques, sur les pages de genre et dans l’égaliseur.
+
+![Recherche par genre et paroles](screenshots/fr/search.jpg)
+
 ### 🎬 Clips, concerts et films d’albums
 
 C’est ce qu’aucun service de streaming ne propose. Grimsby range votre dossier vidéo tout seul :
@@ -107,11 +123,12 @@ Vous ne regardez pas de clips ? Désactivez toute la section d’un seul interru
 - **Convertisseur de fichiers** : MP3, AAC (M4A), Opus, OGG, FLAC, ALAC et WAV. Tags et pochettes sont conservés. Enregistrez des copies dans un autre dossier ou remplacez les originaux : les anciens fichiers vont à la Corbeille, et vos favoris et playlists passent aux nouveaux. Choisissez les titres par cases à cocher.
 - **Recherche de doublons** : le même titre dans plusieurs fichiers et des copies de dossiers d’albums, avec le dossier, le format et le débit de chaque copie. Pas un doublon ? Cliquez sur « Tout est en ordre » et Grimsby s’en souviendra.
 - **Santé de la bibliothèque** avec un smiley d’humeur 😊 😐 😟 : albums sans pochette, année ou genre, titres sans numéro, fichiers illisibles — et comment corriger.
+- **Albums sans date de sortie** — une liste des albums sans date complète : cherchez les dates en ligne pour tous les albums sélectionnés d’un coup ou saisissez-les, gardez-les dans Grimsby ou écrivez-les dans les tags.
 - **Modifier les infos** : tags et pochette d’un album entier d’un coup, y compris le découpage en disques. Grimsby sauvegarde les fichiers avant toute modification.
 
 ![Convertisseur de fichiers](screenshots/fr/converter.jpg)
 
-![Santé de la bibliothèque : doublons](screenshots/fr/health.jpg)
+![Santé de la bibliothèque : albums sans date de sortie](screenshots/fr/no-dates.jpg)
 
 ### 🔊 Un son de vrai lecteur
 
@@ -122,7 +139,7 @@ Vous ne regardez pas de clips ? Désactivez toute la section d’un seul interru
 - **Minuterie de mise en veille, mini-lecteur toujours au premier plan, « Lire ensuite » et file d’attente en glisser-déposer.**
 - **Les titres longs et les mixes** reprennent là où vous vous étiez arrêté.
 
-![Égaliseur](screenshots/fr/equalizer.jpg)
+![Égaliseur](screenshots/fr/bar-eq.jpg)
 
 ### 📻 Des playlists qui se font toutes seules
 
@@ -166,9 +183,31 @@ Le bleu signature de Grimsby, le graphite et le « papier ». Choisissez un thè
 - raccourcis clavier pour tout ;
 - la fenêtre se rouvre exactement comme vous l’avez laissée.
 
+### 📅 Calendrier des sorties (expérimental)
+
+Activez-le dans les Paramètres, et l’Accueil montre quels albums fêtent leur anniversaire aujourd’hui — « 4 ans », « 22 ans » — ainsi qu’un calendrier du mois avec les pochettes de chaque jour. Les dates viennent de vos tags ; si elles manquent, Grimsby peut les chercher en ligne et, si vous voulez, les écrire dans les fichiers.
+
+![Calendrier des sorties sur l’Accueil](screenshots/fr/calendar.jpg)
+
+![Le calendrier des sorties complet](screenshots/fr/calendar-full.jpg)
+
+### 🌈 Reflets, barre compacte et nouvel égaliseur
+
+Le nouveau style **Reflets** transforme la page d’un album en couleurs de sa pochette qui s’écoulent lentement. La barre du lecteur peut être **Compacte** — flottant au-dessus du contenu, avec coins arrondis et transparence réglable — en bas ou en haut. L’égaliseur s’ouvre en panneau de verre juste à côté de son bouton : les réglages s’appliquent aussitôt, avec plus de préréglages.
+
+![Page d’album en style Reflets](screenshots/fr/album-flow.jpg)
+
+### 🗂 Tri et Partager
+
+Un même ordre d’albums pour toutes les années dans Bibliothèque et Vidéos, avec des exceptions pour n’importe quelle année — avec leur propre ordre et sens. Les articles The, A et An sont ignorés au tri : The Weeknd se range à W. **Partager** rassemble un album (ou tous les albums d’un artiste) dans un ZIP — audio, pochette et, si vous voulez, clips ; l’option **Plus léger** réencode les morceaux en MP3 320 ou AAC 256, et la taille de l’archive s’affiche à l’avance.
+
+![Trier dans une année](screenshots/fr/sort.jpg)
+
+![Partager un album en ZIP](screenshots/fr/share.jpg)
+
 ### 🧩 Les applis Grimsby, dans le lecteur
 
-Réglages → À propos contient désormais un bloc **Contact** (Telegram, e-mail, GitHub) et **Les applis Grimsby** : Grimsby Converter et Grimsby Tagger avec description et captures. Téléchargement et installation en un clic.
+Dans Réglages → À propos : **Retours** (Telegram, e-mail, GitHub) et **Applications Grimsby** : Converter, Tagger, Prompter et Helper avec description et captures. Téléchargez et installez en un clic.
 
 ![Les applis Grimsby dans À propos](screenshots/fr/apps.jpg)
 
@@ -187,7 +226,7 @@ Réglages → À propos contient désormais un bloc **Contact** (Telegram, e-mai
 
 1. Ouvrez la page de la **[dernière version](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** et téléchargez `Grimsby-Player-Setup-X.Y.Z.exe`.
 2. Lancez l’installeur. Windows peut afficher la fenêtre bleue « Windows a protégé votre ordinateur » — un avertissement habituel pour les logiciels sans signature payante. Cliquez sur **Informations complémentaires → Exécuter quand même**.
-   L’installeur a été vérifié sur VirusTotal : [aucun des 67 antivirus ne détecte quoi que ce soit](https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917) (version 1.7.0).
+   L’installeur a été vérifié sur VirusTotal : [aucun des 67 antivirus ne détecte quoi que ce soit](https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a) (version 1.9.0).
 3. Au premier lancement, choisissez votre dossier de musique (et, si vous voulez, celui des vidéos). Grimsby s’occupe du reste.
 
 **Configuration requise :** Windows 10 ou 11 (64 bits). Internet n’est nécessaire que pour les mises à jour et les photos d’artistes facultatives.
@@ -230,9 +269,11 @@ L’application ne se connecte que pour les mises à jour et — sauf si vous le
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-fr.svg" alt="Vous êtes ici"></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Vidéo, audio, photos et documents, hors ligne</sub></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Éditeur de tags par lots : albums, pochettes, noms de fichiers</sub></td>
+    <td align="center" width="20%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-fr.svg" alt=""></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.fr.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Vidéo, audio, photos et documents convertis hors ligne</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.fr.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Éditeur de tags par lots : albums, pochettes, noms de fichiers</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.fr.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>Un téléprompteur simple qui suit votre voix</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.fr.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>L’état de votre PC en un coup d’œil : processus, températures, nettoyage</sub></td>
   </tr>
 </table>
 

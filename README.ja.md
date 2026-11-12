@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3&color=3F7EAC" alt="バージョン"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E7%84%A1%E6%96%99-%E5%BA%83%E5%91%8A%E3%81%AA%E3%81%97-111314" alt="無料・広告なし">
-  <a href="https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89&color=858A8D" alt="ダウンロード数"></a>
 </p>
 
@@ -40,7 +40,7 @@
 Grimsby にとって、アルバムは曲の寄せ集めではなくひとつの作品です。アルバムフォルダー内の動画はそのアルバムの MV に。アルバム映像やライブも音楽の横に並びます。
 
 FLAC でアルバムをダウンロードし、ディスコグラフィーを集め、MV やライブ映像を保存している人なら、この悩みを知っているはずです。
-ストリーミングアプリは見た目は素敵ですが、あなたの音楽はそこにありません。レアな作品、高音質のリッピング、YouTube から消えた映像。
+ストリーミングアプリは見た目は素敵ですが、あなたの音楽はそこにありません。レアな作品、高音質のリッピング、ネットから消えた映像。
 従来のプレーヤーはファイルを問題なく扱えますが、画面はまるで 2008 年のままです。
 
 **Grimsby はその両方をつなぎます。** 音楽フォルダーを指定すれば、1 分後にはコレクションが美しいライブラリに変わります。
@@ -56,6 +56,10 @@ FLAC でアルバムをダウンロードし、ディスコグラフィーを集
 | 変換・重複の検出・タグ編集 | ✕ | 一部 | **✓** |
 | オフライン・サブスク不要 | ✕ | ✓ | **✓** |
 | あなたの情報をどこにも送らない | ✕ | ✓ | **✓** |
+
+**アルバムは要らない？** 設定でライブラリを **曲のみ** に切り替えれば、Grimsby はアルバムページのないシンプルな曲プレーヤーになります。
+
+![曲のみ](screenshots/ja/tracks-only.jpg)
 
 ---
 
@@ -85,6 +89,18 @@ Grimsby はアルバムを通して聴くために作られています。コレ
 
 ![アーティストページ](screenshots/ja/artist.jpg)
 
+### 📈 アルバムのタイムライン
+
+アーティストのすべてのアルバムを、年ごとの目盛りがついた 1 本のタイムラインに並べます。リリースの間隔、最も長いブランク、前作から何日たったかがわかります。好きなアルバムを 2 つクリックすると、その間の期間が表示されます。アーティストページの **年表** ボタンや、リリースカレンダーの全体表示から開けます。
+
+![アーティストのアルバムのタイムライン](screenshots/ja/timeline.jpg)
+
+### 🔎 ジャンルと歌詞で検索
+
+タイトルやアーティストだけでなく、ジャンルや歌詞の一節も検索できます。歌詞はタグと、曲の横にある .lrc ファイルから読み込みます。結果には、どこで一致したかが表示されます。大文字と小文字は区別せず、入力ミスで見つからないときは最も近いものを表示します。ジャンルは個別に数えるようになりました。「Pop, Hip-Hop」は、統計、ジャンルページ、イコライザーで 2 つのジャンルとして扱われます。
+
+![ジャンルと歌詞で検索](screenshots/ja/search.jpg)
+
 ### 🎬 MV、ライブ、アルバム映画
 
 どのストリーミングサービスにもない機能です。Grimsby は動画フォルダーを自動で整理します。
@@ -107,11 +123,12 @@ MV は見ない？ 設定のスイッチひとつで動画セクションごと�
 - **ファイル変換**：MP3、AAC（M4A）、Opus、OGG、FLAC、ALAC、WAV。タグとジャケットも引き継がれます。別のフォルダーにコピーを保存するか、元のファイルを置き換えるかを選べます。古いファイルはごみ箱へ移り、お気に入りやプレイリストは新しいファイルに引き継がれます。曲はチェックボックスで選べます。
 - **重複の検出**：別々のファイルに入った同じ曲や、アルバムフォルダーのコピーを見つけ、それぞれのフォルダー・形式・ビットレートを表示します。重複でなければ「問題ありません」を押せば、Grimsby が覚えておきます。
 - **ライブラリの健康状態** を表情アイコン 😊 😐 😟 で表示：ジャケット・年・ジャンルのないアルバム、番号のない曲、読み込めないファイル——そして直し方も。
+- **発売日のないアルバム** — 完全な日付がないアルバムの一覧。選んだアルバムの日付をまとめてネットで探すことも、手で入力することもできます。日付は Grimsby の中だけに保存することも、タグに書き込むこともできます。
 - **詳細を編集**：アルバム全体のタグとジャケットをまとめて編集、ディスクの分割も可能。変更前にファイルをバックアップします。
 
 ![ファイル変換](screenshots/ja/converter.jpg)
 
-![ライブラリの健康状態：重複](screenshots/ja/health.jpg)
+![ライブラリの健康：発売日のないアルバム](screenshots/ja/no-dates.jpg)
 
 ### 🔊 本格的なプレーヤーの音
 
@@ -122,7 +139,7 @@ MV は見ない？ 設定のスイッチひとつで動画セクションごと�
 - **スリープタイマー、常に最前面のミニプレーヤー、「次に再生」、ドラッグ＆ドロップできる再生キュー。**
 - **長い曲やミックス** は止めたところから再開します。
 
-![イコライザー](screenshots/ja/equalizer.jpg)
+![イコライザー](screenshots/ja/bar-eq.jpg)
 
 ### 📻 自分で育つプレイリスト
 
@@ -166,9 +183,31 @@ Grimsby を象徴するブルー、グラファイト、そして「紙」の色
 - あらゆる操作にキーボードショートカット
 - 閉じたときと同じ状態でウィンドウが開く
 
+### 📅 リリースカレンダー（試験的）
+
+設定でオンにすると、ホームに今日が記念日のアルバム（「4 年」「22 年」）と、日ごとにカバーが並ぶ月のカレンダーが表示されます。日付はタグから取得し、ない場合はネットで探して、希望すればファイルに書き込めます。
+
+![ホームのリリースカレンダー](screenshots/ja/calendar.jpg)
+
+![リリースカレンダー全体](screenshots/ja/calendar-full.jpg)
+
+### 🌈 ゆらめき、コンパクトなバー、新しいイコライザー
+
+新しいスタイル **ゆらめき** は、アルバムページをカバーの色がゆっくり流れる画面に変えます。プレーヤーバーは **コンパクト** にでき、角が丸く透明度も調整できるバーが内容の上に浮かびます（下にも上にも置けます）。イコライザーはボタンのすぐ横にガラスのパネルで開き、変更はすぐ反映。プリセットも増えました。
+
+![ゆらめきスタイルのアルバムページ](screenshots/ja/album-flow.jpg)
+
+### 🗂 並べ替えと共有
+
+「ライブラリ」と「ビデオ」のアルバムの並び順はすべての年で共通になり、どの年にも独自の順序と方向で例外を設定できます。並べ替えでは冠詞 The、A、An を無視します。The Weeknd は W に並びます。**共有** は、アルバム（またはアーティストの全アルバム）を 1 つの ZIP にまとめます。音声、カバー、必要なら MV も。**小さく** を選ぶと曲を MP3 320 または AAC 256 に変換し、アーカイブのサイズは事前に表示されます。
+
+![年ごとの並べ替え](screenshots/ja/sort.jpg)
+
+![アルバムを ZIP で共有](screenshots/ja/share.jpg)
+
 ### 🧩 プレーヤーから Grimsby のアプリへ
 
-「設定 → このアプリについて」に **お問い合わせ**（Telegram、メール、GitHub）と **Grimsby のアプリ** が加わりました。Grimsby Converter と Grimsby Tagger の説明とスクリーンショットを見て、ワンクリックでダウンロード・インストールできます。
+設定 → このアプリについて に **フィードバック**（Telegram、メール、GitHub）と **Grimsby アプリ** があります。Converter、Tagger、Prompter、Helper を説明とスクリーンショット付きで紹介し、ワンクリックでダウンロード・インストールできます。
 
 ![「このアプリについて」の Grimsby のアプリ](screenshots/ja/apps.jpg)
 
@@ -187,7 +226,7 @@ Grimsby を象徴するブルー、グラファイト、そして「紙」の色
 
 1. **[最新バージョン](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)**のページを開き、`Grimsby-Player-Setup-X.Y.Z.exe` をダウンロードします。
 2. インストーラーを実行します。Windows に青い「Windows によって PC が保護されました」画面が表示されることがあります。これは有料のコード署名がないアプリでよく出る警告です。**詳細情報 → 実行** をクリックしてください。
-   インストーラーは VirusTotal で確認済みです：[67 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917)（バージョン 1.7.0）。
+   インストーラーは VirusTotal で確認済みです：[67 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a)（バージョン 1.9.0）。
 3. 初回起動時に音楽フォルダー（必要なら動画フォルダーも）を選べば、あとは Grimsby におまかせです。
 
 **動作環境：** Windows 10 または 11（64 ビット）。インターネットはアップデートと任意のアーティスト写真にのみ使います。
@@ -230,9 +269,11 @@ Grimsby は**すべてあなたのパソコン上で動作します**。アカ�
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-ja.svg" alt="このページ"></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>動画・音声・写真・文書をオフラインで変換</sub></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>タグ一括編集：アルバム、カバー、ファイル名</sub></td>
+    <td align="center" width="20%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-ja.svg" alt=""></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ja.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>動画・音声・写真・文書をオフラインで変換</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ja.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>タグ一括編集：アルバム、カバー、ファイル名</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ja.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>声についてくる、シンプルなプロンプター</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.ja.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC の状態がひと目でわかる：プロセス、温度、クリーンアップ</sub></td>
   </tr>
 </table>
 

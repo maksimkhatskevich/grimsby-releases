@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=Version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/kostenlos-ohne%20Werbung-111314" alt="Kostenlos, ohne Werbung">
-  <a href="https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=Downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -40,7 +40,7 @@
 Für Grimsby ist ein Album ein ganzes Werk, kein Haufen Titel. Ein Video im Albumordner wird zum Musikvideo des Albums; Albumfilme und Konzerte stehen neben der Musik.
 
 Wer Alben in FLAC lädt, Diskografien sammelt und Musikvideos und Konzerte aufbewahrt, kennt das Problem.
-Streamingdienste sehen toll aus, aber deine Musik ist dort nicht: seltene Releases, hochwertige Rips, Videos, die von YouTube verschwunden sind.
+Streamingdienste sehen toll aus, aber deine Musik ist dort nicht: seltene Releases, hochwertige Rips, Videos, die aus dem Netz verschwunden sind.
 Klassische Player kommen mit deinen Dateien gut klar — nur wirkt ihre Oberfläche wie aus dem Jahr 2008.
 
 **Grimsby verbindet beides.** Wähle deinen Musikordner, und eine Minute später wird deine Sammlung zu einer schönen Bibliothek:
@@ -56,6 +56,10 @@ Ohne Konto, ohne Abo, ohne Werbung, ohne Internet.
 | Konverter, Duplikatsuche, Tag-Editor | ✕ | teilweise | **✓** |
 | Funktioniert offline, ohne Abo | ✕ | ✓ | **✓** |
 | Sendet nichts über dich irgendwohin | ✕ | ✓ | **✓** |
+
+**Keine Lust auf Alben?** Stell die Mediathek in den Einstellungen auf **Nur Titel** — dann ist Grimsby ein einfacher Player für deine Titel, ohne Albumseiten.
+
+![Nur Titel](screenshots/de/tracks-only.jpg)
 
 ---
 
@@ -85,6 +89,18 @@ Interpretenradio und „Alle Videos ansehen“ gibt es direkt dort.
 
 ![Interpretenseite](screenshots/de/artist.jpg)
 
+### 📈 Album-Zeitleiste
+
+Alle Alben eines Interpreten auf einer Zeitleiste mit Jahresmarken: wie viel Zeit zwischen den Veröffentlichungen lag, die längste Pause und wie viele Tage seit dem letzten Album vergangen sind. Klicke auf zwei beliebige Alben, um die Zeit dazwischen zu sehen. Geöffnet wird sie mit **Zeitleiste** auf der Interpretenseite oder aus dem vollen Release-Kalender.
+
+![Album-Zeitleiste eines Interpreten](screenshots/de/timeline.jpg)
+
+### 🔎 Suche nach Genre und Songtext
+
+Die Suche findet nicht nur Titel und Interpreten, sondern auch Genres und Zeilen aus Songtexten – aus Tags und .lrc-Dateien neben dem Titel. In den Ergebnissen siehst du, wo der Treffer liegt. Groß- und Kleinschreibung ist egal, und findet ein Tippfehler nichts, zeigt Grimsby das Ähnlichste. Genres zählen jetzt einzeln: „Pop, Hip-Hop“ sind zwei Genres in der Statistik, auf Genreseiten und im Equalizer.
+
+![Suche nach Genre und Songtext](screenshots/de/search.jpg)
+
 ### 🎬 Musikvideos, Konzerte und Albumfilme
 
 Das hat kein Streamingdienst. Grimsby sortiert deinen Videoordner von selbst:
@@ -107,11 +123,12 @@ Du schaust keine Musikvideos? Schalte den ganzen Bereich mit einem Schalter in d
 - **Dateikonverter**: MP3, AAC (M4A), Opus, OGG, FLAC, ALAC und WAV. Tags und Cover werden übernommen. Speichere Kopien in einem eigenen Ordner oder ersetze die Originale: Die alten Dateien landen im Papierkorb, Favoriten und Playlists ziehen auf die neuen um. Titel wählst du per Häkchen aus.
 - **Duplikatsuche**: derselbe Titel in verschiedenen Dateien und Kopien ganzer Albumordner, jeweils mit Ordner, Format und Bitrate. Kein Duplikat? Klicke auf „Alles in Ordnung“ — Grimsby merkt es sich.
 - **Zustand der Mediathek** mit Stimmungs-Smiley 😊 😐 😟: Alben ohne Cover, Jahr oder Genre, Titel ohne Nummer, unlesbare Dateien — und wie man es behebt.
+- **Alben ohne Erscheinungsdatum** – eine Liste der Alben ohne vollständiges Datum: Daten für alle ausgewählten Alben auf einmal online suchen oder von Hand eintragen, nur in Grimsby speichern oder in die Tags schreiben.
 - **Details bearbeiten**: Tags und Cover für ein ganzes Album auf einmal, auch die Aufteilung in CDs. Grimsby sichert die Dateien vor jeder Änderung.
 
 ![Dateikonverter](screenshots/de/converter.jpg)
 
-![Zustand der Mediathek: Duplikate](screenshots/de/health.jpg)
+![Bibliothekszustand: Alben ohne Erscheinungsdatum](screenshots/de/no-dates.jpg)
 
 ### 🔊 Klang wie bei einem richtigen Player
 
@@ -122,7 +139,7 @@ Du schaust keine Musikvideos? Schalte den ganzen Bereich mit einem Schalter in d
 - **Sleep-Timer, Mini-Player immer im Vordergrund, „Als Nächstes spielen“ und Warteschlange per Drag & Drop.**
 - **Lange Titel und Mixe** laufen dort weiter, wo du aufgehört hast.
 
-![Equalizer](screenshots/de/equalizer.jpg)
+![Equalizer](screenshots/de/bar-eq.jpg)
 
 ### 📻 Playlists, die sich selbst füllen
 
@@ -166,9 +183,31 @@ Grimsbys typisches Blau, Graphit und „Papier“. Wähle ein Design oder folge 
 - Tastenkürzel für alles;
 - das Fenster öffnet sich so, wie du es geschlossen hast.
 
+### 📅 Veröffentlichungskalender (experimentell)
+
+Schalte ihn in den Einstellungen ein, und Start zeigt, welche deiner Alben heute Jahrestag haben – „4 Jahre“, „22 Jahre“ – plus einen Monatskalender mit Covern an jedem Tag. Die Daten stammen aus deinen Tags; fehlen sie, kann Grimsby sie online suchen und auf Wunsch in die Dateien schreiben.
+
+![Veröffentlichungskalender auf Start](screenshots/de/calendar.jpg)
+
+![Der ganze Veröffentlichungskalender](screenshots/de/calendar-full.jpg)
+
+### 🌈 Schimmern, kompakte Leiste und ein neuer Equalizer
+
+Der neue Stil **Schimmern** verwandelt eine Albumseite in die langsam fließenden Farben ihres Covers. Die Player-Leiste kann **Kompakt** sein – schwebend über dem Inhalt, mit runden Ecken und einstellbarer Transparenz – unten oder oben. Der Equalizer öffnet sich als Glasfenster direkt am Knopf: Änderungen wirken sofort, und es gibt mehr Voreinstellungen.
+
+![Albumseite im Stil Schimmern](screenshots/de/album-flow.jpg)
+
+### 🗂 Sortierung und Teilen
+
+Eine Albenreihenfolge für alle Jahre in Bibliothek und Videos, mit Ausnahmen für jedes Jahr – mit eigener Reihenfolge und Richtung. Die Artikel The, A und An werden beim Sortieren ignoriert: The Weeknd steht unter W. **Teilen** packt ein Album (oder alle Alben eines Interpreten) in ein ZIP – Audio, Cover und auf Wunsch Musikvideos; die Option **Kleiner** kodiert die Titel in MP3 320 oder AAC 256 um, und die Größe des Archivs siehst du vorher.
+
+![Sortieren innerhalb eines Jahres](screenshots/de/sort.jpg)
+
+![Ein Album als ZIP teilen](screenshots/de/share.jpg)
+
 ### 🧩 Grimsby-Apps direkt im Player
 
-Unter Einstellungen → Über gibt es jetzt einen **Feedback**-Block (Telegram, E-Mail, GitHub) und **Grimsby-Apps**: Grimsby Converter und Grimsby Tagger mit Beschreibung und Screenshots – mit einem Klick herunterladen und installieren.
+Unter Einstellungen → Über stehen **Feedback** (Telegram, E-Mail, GitHub) und **Grimsby-Apps**: Converter, Tagger, Prompter und Helper mit Beschreibung und Screenshots. Herunterladen und installieren mit einem Klick.
 
 ![Grimsby-Apps unter „Über“](screenshots/de/apps.jpg)
 
@@ -187,7 +226,7 @@ Unter Einstellungen → Über gibt es jetzt einen **Feedback**-Block (Telegram, 
 
 1. Öffne die Seite der **[neuesten Version](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** und lade `Grimsby-Player-Setup-X.Y.Z.exe` herunter.
 2. Starte das Installationsprogramm. Windows zeigt eventuell das blaue Fenster „Der Computer wurde durch Windows geschützt“ — eine übliche Warnung bei Programmen ohne kostenpflichtige Signatur. Klicke auf **Weitere Informationen → Trotzdem ausführen**.
-   Das Installationsprogramm wurde bei VirusTotal geprüft: [keiner der 67 Virenscanner schlägt an](https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917) (Version 1.7.0).
+   Das Installationsprogramm wurde bei VirusTotal geprüft: [keiner der 67 Virenscanner schlägt an](https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a) (Version 1.9.0).
 3. Wähle beim ersten Start deinen Musikordner (und auf Wunsch deinen Videoordner). Den Rest erledigt Grimsby.
 
 **Voraussetzungen:** Windows 10 oder 11 (64 Bit). Internet wird nur für Updates und optionale Interpretenfotos benötigt.
@@ -230,9 +269,11 @@ Die App geht nur für Updates online und — sofern du es nicht abschaltest — 
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-de.svg" alt="Du bist hier"></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Video, Audio, Fotos und Dokumente – offline</sub></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Tag-Editor für ganze Alben: Tags, Cover, Dateinamen</sub></td>
+    <td align="center" width="20%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-de.svg" alt=""></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.de.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Videos, Audio, Fotos und Dokumente – offline umwandeln</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.de.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Tag-Editor für ganze Alben: Tags, Cover, Dateinamen</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.de.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>Ein einfacher Teleprompter, der deiner Stimme folgt</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.de.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC-Zustand auf einen Blick: Prozesse, Temperaturen, Bereinigung</sub></td>
   </tr>
 </table>
 

@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/free-no%20ads-111314" alt="Free, no ads">
-  <a href="https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -46,7 +46,7 @@
 Grimsby treats an album as a whole work, not a pile of tracks. A video inside an album folder becomes that album's music video; album films and concerts sit next to the music.
 
 If you download albums in FLAC, collect discographies and keep music videos and live sets, you know the problem.
-Streaming apps look great, but your music isn't there: rare releases, quality rips, videos that disappeared from YouTube.
+Streaming apps look great, but your music isn't there: rare releases, quality rips, videos that disappeared from the internet.
 Classic players handle your files just fine — but their interface feels stuck in 2008.
 
 **Grimsby brings the two together.** Point it at your music folder, and a minute later your collection becomes a beautiful library:
@@ -62,6 +62,10 @@ No accounts, no subscriptions, no ads, no internet required.
 | Converter, duplicate finder, tag editor | ✕ | partly | **✓** |
 | Works offline, no subscription | ✕ | ✓ | **✓** |
 | Sends nothing about you anywhere | ✕ | ✓ | **✓** |
+
+**Not into albums?** Switch the library to **Tracks only** in Settings — Grimsby becomes a simple player for your tracks, without album pages.
+
+![Tracks only](screenshots/en/tracks-only.jpg)
 
 ---
 
@@ -91,6 +95,18 @@ Artist radio and "Watch all videos" are right there.
 
 ![Artist page](screenshots/en/artist.jpg)
 
+### 📈 Album timeline
+
+All of an artist’s albums on one timeline with year marks: how long passed between releases, the longest break and how many days since the latest album. Click any two albums to see the time between them. Open it with the **Timeline** button on the artist page or from the full release calendar.
+
+![Artist album timeline](screenshots/en/timeline.jpg)
+
+### 🔎 Search by genre and lyrics
+
+Search finds not only titles and artists but also genres and lines from song lyrics — from tags and .lrc files next to the track. Results show where the match was found. Case doesn’t matter, and if a typo finds nothing, Grimsby shows the closest match. Genres now count separately: “Pop, Hip-Hop” is two genres in stats, on genre pages and in the equalizer.
+
+![Search by genre and lyrics](screenshots/en/search.jpg)
+
 ### 🎬 Music videos, concerts and album films
 
 This is something no streaming service has. Grimsby sorts your video folder for you:
@@ -113,11 +129,12 @@ Don't watch videos? Turn the whole section off with a single switch in settings.
 - **File converter** — MP3, AAC (M4A), Opus, OGG, FLAC, ALAC and WAV. Tags and covers carry over. Save copies to a separate folder or replace the originals: old files go to the Recycle Bin, and your likes and playlists move to the new ones. Pick the tracks you need with checkboxes.
 - **Duplicate finder** — the same track in different files and copies of whole album folders, with the folder, format and bitrate of each copy. Not a duplicate? Click "All good" and Grimsby remembers.
 - **Library health** with a mood face 😊 😐 😟: albums without a cover, year or genre, tracks without numbers, unreadable files — and how to fix them.
+- **Albums without a release date** — a list of albums without a full date: find dates online for all selected albums at once or type them in, keep them in Grimsby only or write them into the tags.
 - **Edit details** — tags and cover art for a whole album at once, including splitting it into discs. Grimsby backs up the files before changing them.
 
 ![File converter](screenshots/en/converter.jpg)
 
-![Library health: duplicates](screenshots/en/health.jpg)
+![Library health: albums without a release date](screenshots/en/no-dates.jpg)
 
 ### 🔊 Sound like a proper player
 
@@ -128,7 +145,7 @@ Don't watch videos? Turn the whole section off with a single switch in settings.
 - **Sleep timer, an always-on-top mini player, Play next and drag-and-drop in the queue.**
 - **Long tracks and mixes** resume where you left off.
 
-![Equalizer](screenshots/en/equalizer.jpg)
+![Equalizer](screenshots/en/bar-eq.jpg)
 
 ### 📻 Playlists that make themselves
 
@@ -172,9 +189,31 @@ Grimsby's signature blue, graphite and "paper". Pick a theme or follow Windows. 
 - keyboard shortcuts for everything;
 - the window reopens exactly the way you left it.
 
+### 📅 Release calendar (experimental)
+
+Turn it on in Settings, and Home shows which of your albums turn a year older today — “4 years”, “22 years” — plus a full month calendar with covers on each day. Release dates come from your tags; if they’re missing, Grimsby can look them up online and, if you like, write them into the files.
+
+![Release calendar on Home](screenshots/en/calendar.jpg)
+
+![Full release calendar](screenshots/en/calendar-full.jpg)
+
+### 🌈 Shimmer, a compact player bar and a new equalizer
+
+The new **Shimmer** style turns an album page into the slowly flowing colors of its cover. The player bar can be **Compact** — floating above the content with rounded corners and adjustable transparency — at the bottom or the top. The equalizer now opens as a glass panel right by its button: changes apply instantly, and there are more presets.
+
+![Album page in the Shimmer style](screenshots/en/album-flow.jpg)
+
+### 🗂 Sorting and Share
+
+One album order for every year in Library and Videos, with exceptions for any year — its own order and direction. The articles The, A and An are ignored when sorting: The Weeknd sits under W. **Share** packs an album (or all of an artist’s albums) into one ZIP — audio, cover and, if you like, music videos; the **Smaller** option re-encodes tracks to MP3 320 or AAC 256, and the archive size is shown in advance.
+
+![Sorting inside a year](screenshots/en/sort.jpg)
+
+![Share an album as a ZIP](screenshots/en/share.jpg)
+
 ### 🧩 Grimsby apps, right in the player
 
-Settings → About now has a **Feedback** block (Telegram, email, GitHub) and **Grimsby apps**: Grimsby Converter and Grimsby Tagger with descriptions and screenshots. Download and install them in one click.
+Settings → About has **Feedback** (Telegram, email, GitHub) and **Grimsby apps**: Converter, Tagger, Prompter and Helper with descriptions and screenshots. Download and install in one click.
 
 ![Grimsby apps in About](screenshots/en/apps.jpg)
 
@@ -193,7 +232,7 @@ Settings → About now has a **Feedback** block (Telegram, email, GitHub) and **
 
 1. Open the **[latest release](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** page and download `Grimsby-Player-Setup-X.Y.Z.exe`.
 2. Run the installer. Windows may show a blue "Windows protected your PC" window — that's a normal warning for apps without a paid code-signing certificate. Click **More info → Run anyway**.
-   The installer has been checked on VirusTotal: [0 of 67 antivirus engines flag it](https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917) (version 1.7.0).
+   The installer has been checked on VirusTotal: [0 of 67 antivirus engines flag it](https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a) (version 1.9.0).
 3. On first launch, pick your music folder (and, if you like, your videos folder). Grimsby takes care of the rest.
 
 **Requirements:** Windows 10 or 11 (64-bit). Internet is only needed for updates and optional artist photos.
@@ -240,9 +279,11 @@ The app only goes online for updates and — unless you turn it off — for arti
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-en.svg" alt="You are here"></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Video, audio, photos and documents — offline</sub></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Batch tag editor: albums, covers, file names</sub></td>
+    <td align="center" width="20%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-en.svg" alt=""></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Video, audio, photos and documents — converted offline</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Batch tag editor: albums, covers, file names</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>A simple teleprompter that follows your voice</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC health at a glance: processes, temperatures, cleanup</sub></td>
   </tr>
 </table>
 

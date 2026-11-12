@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%EB%B2%84%EC%A0%84&color=3F7EAC" alt="버전"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%EB%AC%B4%EB%A3%8C-%EA%B4%91%EA%B3%A0%20%EC%97%86%EC%9D%8C-111314" alt="무료, 광고 없음">
-  <a href="https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C&color=858A8D" alt="다운로드"></a>
 </p>
 
@@ -40,7 +40,7 @@
 Grimsby에게 앨범은 트랙 묶음이 아니라 하나의 작품입니다. 앨범 폴더 안의 영상은 그 앨범의 뮤직비디오가 되고, 앨범 영화와 공연은 음악 옆에 놓입니다.
 
 FLAC 앨범을 내려받고, 디스코그래피를 모으고, 뮤직비디오와 공연 영상을 보관한다면 이 고민을 알고 있을 겁니다.
-스트리밍 앱은 보기 좋지만 내 음악은 거기에 없습니다. 희귀 음반, 고음질 립, YouTube에서 사라진 영상들.
+스트리밍 앱은 보기 좋지만 내 음악은 거기에 없습니다. 희귀 음반, 고음질 립, 인터넷에서 사라진 영상들.
 기존 플레이어는 파일을 잘 다루지만, 화면은 2008년에 멈춰 있는 것 같죠.
 
 **Grimsby는 둘을 하나로 합칩니다.** 음악 폴더를 지정하면 1분 뒤 컬렉션이 멋진 라이브러리로 바뀝니다.
@@ -56,6 +56,10 @@ FLAC 앨범을 내려받고, 디스코그래피를 모으고, 뮤직비디오와
 | 변환기·중복 찾기·태그 편집 | ✕ | 일부 | **✓** |
 | 인터넷·구독 없이 작동 | ✕ | ✓ | **✓** |
 | 내 정보를 어디에도 보내지 않음 | ✕ | ✓ | **✓** |
+
+**앨범이 필요 없나요?** 설정에서 라이브러리를 **트랙만** 으로 바꾸면 Grimsby가 앨범 페이지 없는 간단한 트랙 플레이어가 됩니다.
+
+![트랙만](screenshots/ko/tracks-only.jpg)
 
 ---
 
@@ -85,6 +89,18 @@ Grimsby는 앨범을 처음부터 끝까지 듣기 위해 만들어졌습니다.
 
 ![아티스트 페이지](screenshots/ko/artist.jpg)
 
+### 📈 앨범 타임라인
+
+아티스트의 모든 앨범을 연도 눈금이 있는 하나의 타임라인에 놓습니다. 발매 사이 간격, 가장 긴 공백, 마지막 앨범 이후 며칠이 지났는지 알 수 있습니다. 앨범 두 개를 클릭하면 그 사이의 시간이 나옵니다. 아티스트 페이지의 **연대기** 버튼이나 전체 발매 캘린더에서 열 수 있습니다.
+
+![아티스트 앨범 타임라인](screenshots/ko/timeline.jpg)
+
+### 🔎 장르와 가사로 검색
+
+제목과 아티스트뿐 아니라 장르와 가사 한 줄까지 찾습니다. 가사는 태그와 트랙 옆의 .lrc 파일에서 읽습니다. 결과에는 어디에서 일치했는지 표시됩니다. 대소문자는 구분하지 않으며, 오타로 찾지 못하면 가장 비슷한 결과를 보여 줍니다. 장르는 이제 따로 셉니다. “Pop, Hip-Hop”은 통계, 장르 페이지, 이퀄라이저에서 두 개의 장르입니다.
+
+![장르와 가사로 검색](screenshots/ko/search.jpg)
+
 ### 🎬 뮤직비디오, 공연, 앨범 영화
 
 어떤 스트리밍 서비스에도 없는 기능입니다. Grimsby가 영상 폴더를 알아서 정리합니다.
@@ -107,11 +123,12 @@ Grimsby는 앨범을 처음부터 끝까지 듣기 위해 만들어졌습니다.
 - **파일 변환기**: MP3, AAC(M4A), Opus, OGG, FLAC, ALAC, WAV. 태그와 커버도 함께 옮겨집니다. 사본을 별도 폴더에 저장하거나 원본을 바꿀 수 있으며, 이전 파일은 휴지통으로 가고 좋아요와 플레이리스트는 새 파일로 옮겨집니다. 변환할 곡은 체크박스로 고릅니다.
 - **중복 찾기**: 서로 다른 파일에 있는 같은 곡과 앨범 폴더 사본을 찾아, 사본마다 폴더·포맷·비트레이트를 보여 줍니다. 중복이 아니라면 「문제 없음」을 누르세요. Grimsby가 기억합니다.
 - **보관함 상태** 를 기분 이모티콘 😊 😐 😟 으로 표시: 커버·연도·장르가 없는 앨범, 번호 없는 곡, 읽을 수 없는 파일 — 그리고 고치는 방법까지.
+- **발매일이 없는 앨범** — 전체 날짜가 없는 앨범 목록입니다. 선택한 앨범의 날짜를 한꺼번에 인터넷에서 찾거나 직접 입력할 수 있고, Grimsby에만 저장하거나 태그에 기록할 수 있습니다.
 - **정보 편집**: 앨범 전체의 태그와 커버를 한 번에, 디스크 나누기도 가능. 변경 전에 파일을 백업합니다.
 
 ![파일 변환기](screenshots/ko/converter.jpg)
 
-![보관함 상태: 중복](screenshots/ko/health.jpg)
+![라이브러리 상태: 발매일이 없는 앨범](screenshots/ko/no-dates.jpg)
 
 ### 🔊 제대로 된 플레이어의 소리
 
@@ -122,7 +139,7 @@ Grimsby는 앨범을 처음부터 끝까지 듣기 위해 만들어졌습니다.
 - **수면 타이머, 항상 위에 표시되는 미니 플레이어, 「다음에 재생」, 끌어다 놓는 재생 대기열.**
 - **긴 곡과 믹스** 는 멈춘 곳에서 이어서 재생됩니다.
 
-![이퀄라이저](screenshots/ko/equalizer.jpg)
+![이퀄라이저](screenshots/ko/bar-eq.jpg)
 
 ### 📻 스스로 채워지는 플레이리스트
 
@@ -166,9 +183,31 @@ Grimsby의 상징인 블루, 그래파이트, 그리고 「종이」 색. 테마
 - 모든 기능에 단축키
 - 닫았을 때 모습 그대로 다시 열리는 창
 
+### 📅 발매 달력(실험적)
+
+설정에서 켜면 홈에 오늘 기념일을 맞은 앨범(“4년”, “22년”)과 날마다 커버가 표시되는 월 달력이 나타납니다. 날짜는 태그에서 가져오고, 없으면 Grimsby가 인터넷에서 찾아 원하면 파일에 기록합니다.
+
+![홈의 발매 달력](screenshots/ko/calendar.jpg)
+
+![전체 발매 달력](screenshots/ko/calendar-full.jpg)
+
+### 🌈 일렁임, 컴팩트 바, 새로운 이퀄라이저
+
+새 스타일 **일렁임** 은 앨범 페이지를 커버 색이 천천히 흐르는 화면으로 바꿉니다. 플레이어 바는 **컴팩트** 로 바꿔 둥근 모서리와 조절 가능한 투명도로 내용 위에 띄울 수 있고, 아래나 위에 둘 수 있습니다. 이퀄라이저는 버튼 바로 옆에 유리 패널로 열리며 변경이 즉시 적용되고 프리셋도 늘었습니다.
+
+![일렁임 스타일의 앨범 페이지](screenshots/ko/album-flow.jpg)
+
+### 🗂 정렬과 공유
+
+“보관함”과 “비디오”의 앨범 순서는 모든 연도에 공통이고, 원하는 연도에는 자체 순서와 방향으로 예외를 둘 수 있습니다. 정렬할 때 관사 The, A, An은 무시합니다. The Weeknd는 W에 놓입니다. **공유** 는 앨범(또는 아티스트의 모든 앨범)을 하나의 ZIP으로 묶습니다. 오디오, 커버, 원하면 뮤직비디오까지. **더 작게** 옵션은 트랙을 MP3 320 또는 AAC 256으로 변환하고, 압축 파일 크기를 미리 보여 줍니다.
+
+![연도 안 정렬](screenshots/ko/sort.jpg)
+
+![앨범을 ZIP으로 공유](screenshots/ko/share.jpg)
+
 ### 🧩 플레이어 안의 Grimsby 앱
 
-설정 → 정보에 **문의**(Telegram, 이메일, GitHub)와 **Grimsby 앱**이 생겼습니다. Grimsby Converter와 Grimsby Tagger의 소개와 스크린샷을 보고 클릭 한 번으로 내려받아 설치하세요.
+설정 → 정보에 **피드백**(Telegram, 이메일, GitHub)과 **Grimsby 앱** 이 있습니다. Converter, Tagger, Prompter, Helper를 설명과 스크린샷과 함께 보여 주며, 클릭 한 번으로 내려받아 설치할 수 있습니다.
 
 ![정보의 Grimsby 앱](screenshots/ko/apps.jpg)
 
@@ -187,7 +226,7 @@ Grimsby의 상징인 블루, 그래파이트, 그리고 「종이」 색. 테마
 
 1. **[최신 버전](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** 페이지를 열고 `Grimsby-Player-Setup-X.Y.Z.exe`를 내려받습니다.
 2. 설치 프로그램을 실행합니다. Windows가 파란색 「Windows의 PC 보호」 창을 띄울 수 있는데, 유료 코드 서명이 없는 프로그램에서 흔히 나오는 경고입니다. **추가 정보 → 실행** 을 누르세요.
-   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 67개 모두 이상 없음](https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917) (버전 1.7.0).
+   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 67개 모두 이상 없음](https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a) (버전 1.9.0).
 3. 처음 실행할 때 음악 폴더(원하면 영상 폴더도)를 선택하면, 나머지는 Grimsby가 알아서 합니다.
 
 **요구 사항:** Windows 10 또는 11 (64비트). 인터넷은 업데이트와 선택 사항인 아티스트 사진에만 필요합니다.
@@ -230,9 +269,11 @@ Grimsby는 **전부 내 컴퓨터에서 작동합니다**. 계정, 광고, 분�
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-ko.svg" alt="현재 페이지"></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>영상, 오디오, 사진, 문서를 오프라인으로 변환</sub></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>태그 일괄 편집: 앨범, 커버, 파일 이름</sub></td>
+    <td align="center" width="20%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-ko.svg" alt=""></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ko.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>영상, 오디오, 사진, 문서를 오프라인으로 변환</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ko.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>태그 일괄 편집: 앨범, 커버, 파일 이름</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ko.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>목소리를 따라가는 간단한 프롬프터</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.ko.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC 상태를 한눈에: 프로세스, 온도, 정리</sub></td>
   </tr>
 </table>
 

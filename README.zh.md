@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%E7%89%88%E6%9C%AC&color=3F7EAC" alt="版本"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E5%85%8D%E8%B4%B9-%E6%97%A0%E5%B9%BF%E5%91%8A-111314" alt="免费，无广告">
-  <a href="https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%E4%B8%8B%E8%BD%BD&color=858A8D" alt="下载量"></a>
 </p>
 
@@ -40,7 +40,7 @@
 在 Grimsby 里，专辑是一部完整的作品，而不是一堆曲目。专辑文件夹里的视频会成为这张专辑的 MV；专辑电影和演唱会就放在音乐旁边。
 
 如果你下载 FLAC 专辑、收集完整唱片目录、保存 MV 和演唱会视频，你一定懂这个烦恼：
-流媒体应用很好看，但里面没有你的音乐——稀有版本、高品质抓轨、已经从 YouTube 消失的视频。
+流媒体应用很好看，但里面没有你的音乐——稀有版本、高品质抓轨、已经从网上消失的视频。
 经典播放器能很好地处理你的文件，可界面却像停留在 2008 年。
 
 **Grimsby 把两者结合在一起。** 选择你的音乐文件夹，一分钟后你的收藏就变成一个漂亮的音乐库：
@@ -56,6 +56,10 @@
 | 格式转换、查找重复、标签编辑 | ✕ | 部分 | **✓** |
 | 离线可用，无需订阅 | ✕ | ✓ | **✓** |
 | 不向任何地方发送你的信息 | ✕ | ✓ | **✓** |
+
+**不需要专辑？** 在设置里把音乐库切换为 **仅曲目**——Grimsby 就变成一个简单的曲目播放器，没有专辑页面。
+
+![仅曲目](screenshots/zh/tracks-only.jpg)
 
 ---
 
@@ -85,6 +89,18 @@ Grimsby 专为完整聆听专辑而设计。整个收藏按发行年份排列：
 
 ![艺人页面](screenshots/zh/artist.jpg)
 
+### 📈 专辑时间线
+
+艺人的所有专辑排在一条按年份标刻的时间线上：两张专辑之间隔了多久、最长的空窗期，以及距上一张专辑过去了多少天。点击任意两张专辑即可查看它们之间的时间。可通过艺人页面的 **时间线** 按钮或完整的发行日历打开。
+
+![艺人专辑时间线](screenshots/zh/timeline.jpg)
+
+### 🔎 按流派和歌词搜索
+
+搜索不仅能找到标题和艺人，还能找到流派和歌词中的句子——来自标签以及曲目旁的 .lrc 文件。结果会显示匹配出现在哪里。不区分大小写，打错字找不到时，Grimsby 会显示最接近的结果。流派现在会分开统计：“Pop, Hip-Hop” 在统计、流派页面和均衡器中算作两个流派。
+
+![按流派和歌词搜索](screenshots/zh/search.jpg)
+
 ### 🎬 MV、演唱会和专辑电影
 
 这是任何流媒体都没有的。Grimsby 会自动整理你的视频文件夹：
@@ -107,11 +123,12 @@ Grimsby 专为完整聆听专辑而设计。整个收藏按发行年份排列：
 - **文件转换器**：MP3、AAC（M4A）、Opus、OGG、FLAC、ALAC 和 WAV。标签和封面会一并保留。可以把副本保存到单独的文件夹，或替换原文件：旧文件会移到回收站，喜欢和播放列表会自动转到新文件上。可以勾选需要转换的曲目。
 - **查找重复**：不同文件中的同一首曲目，以及整个专辑文件夹的副本，每份副本都显示文件夹、格式和码率。不是重复？点「一切正常」，Grimsby 会记住。
 - **资料库健康** 带心情表情 😊 😐 😟：缺少封面、年份或流派的专辑，没有编号的曲目，无法读取的文件——以及如何修复。
+- **没有发行日期的专辑**——列出没有完整日期的专辑：可一次为所有选中的专辑在线查找日期，也可手动填写；日期可只保存在 Grimsby 中，也可写入标签。
 - **编辑详情**：一次编辑整张专辑的标签和封面，包括分碟。修改前 Grimsby 会备份文件。
 
 ![文件转换器](screenshots/zh/converter.jpg)
 
-![资料库健康：重复项](screenshots/zh/health.jpg)
+![音乐库健康：没有发行日期的专辑](screenshots/zh/no-dates.jpg)
 
 ### 🔊 真正播放器的音质
 
@@ -122,7 +139,7 @@ Grimsby 专为完整聆听专辑而设计。整个收藏按发行年份排列：
 - **睡眠定时器、始终置顶的迷你播放器、「下一首播放」以及可拖放的播放队列。**
 - **长曲目和混音** 会从你上次停下的位置继续。
 
-![均衡器](screenshots/zh/equalizer.jpg)
+![均衡器](screenshots/zh/bar-eq.jpg)
 
 ### 📻 自己会生成的播放列表
 
@@ -166,9 +183,31 @@ Grimsby 标志性的蓝色、石墨色和「纸张」色。可选择主题或跟
 - 所有操作都有快捷键；
 - 窗口会按你关闭时的样子重新打开。
 
+### 📅 发行日历（实验性）
+
+在设置中开启后，主页会显示今天迎来周年的专辑（“4 年”“22 年”），还有一个每天都带封面的月历。日期来自你的标签；如果没有，Grimsby 可以在线查找，并按你的意愿写入文件。
+
+![主页上的发行日历](screenshots/zh/calendar.jpg)
+
+![完整的发行日历](screenshots/zh/calendar-full.jpg)
+
+### 🌈 流光、紧凑播放栏和全新均衡器
+
+全新的 **流光** 风格让专辑页面变成封面颜色缓缓流动的画面。播放栏可以设为 **紧凑**——带圆角、透明度可调，悬浮在内容上方——放在底部或顶部。均衡器会在按钮旁以玻璃面板打开：调整即时生效，预设也更多了。
+
+![流光风格的专辑页面](screenshots/zh/album-flow.jpg)
+
+### 🗂 排序与分享
+
+“音乐库”和“视频”中所有年份使用同一种专辑排序，任何一年都可以设置例外——拥有自己的排序方式和方向。排序时忽略冠词 The、A 和 An：The Weeknd 排在 W 下。**分享** 会把一张专辑（或艺人的全部专辑）打包成一个 ZIP——音频、封面，以及可选的 MV；**更小** 选项会把曲目转码为 MP3 320 或 AAC 256，压缩包大小会提前显示。
+
+![年内排序](screenshots/zh/sort.jpg)
+
+![把专辑打包成 ZIP 分享](screenshots/zh/share.jpg)
+
 ### 🧩 播放器里的 Grimsby 应用
 
-“设置 → 关于”中新增了 **反馈**（Telegram、邮箱、GitHub）和 **Grimsby 应用**：Grimsby Converter 和 Grimsby Tagger 的介绍与截图，一键下载安装。
+在 设置 → 关于 中有 **反馈**（Telegram、邮件、GitHub）和 **Grimsby 应用**：Converter、Tagger、Prompter 和 Helper，附有介绍和截图。一键下载安装。
 
 ![“关于”中的 Grimsby 应用](screenshots/zh/apps.jpg)
 
@@ -187,7 +226,7 @@ Grimsby 标志性的蓝色、石墨色和「纸张」色。可选择主题或跟
 
 1. 打开**[最新版本](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)**页面，下载 `Grimsby-Player-Setup-X.Y.Z.exe`。
 2. 运行安装程序。Windows 可能会弹出蓝色的「Windows 已保护你的电脑」窗口——这是没有付费代码签名的程序常见的提示。点击**更多信息 → 仍要运行**。
-   安装程序已在 VirusTotal 上检测：[67 款杀毒引擎均未发现问题](https://www.virustotal.com/gui/file/c6140f2a454bfa38641267e1185356bcf09040bbf93ac48cad1888dd5cec4917)（1.7.0 版）。
+   安装程序已在 VirusTotal 上检测：[67 款杀毒引擎均未发现问题](https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a)（1.9.0 版）。
 3. 首次启动时选择你的音乐文件夹（如果需要，也可以选择视频文件夹），其余交给 Grimsby。
 
 **系统要求：** Windows 10 或 11（64 位）。只有更新和可选的艺人照片需要联网。
@@ -230,9 +269,11 @@ Grimsby **完全在你的电脑上运行**。没有账号、没有广告、没�
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-zh.svg" alt="当前页面"></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>视频、音频、照片和文档，离线转换</sub></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>批量标签编辑：专辑、封面、文件名</sub></td>
+    <td align="center" width="20%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-zh.svg" alt=""></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.zh.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>视频、音频、照片和文档，离线转换</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.zh.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>批量标签编辑：专辑、封面、文件名</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.zh.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>会跟随你声音的简单提词器</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.zh.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>电脑状态一目了然：进程、温度、清理</sub></td>
   </tr>
 </table>
 
