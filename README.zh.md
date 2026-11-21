@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%E7%89%88%E6%9C%AC&color=3F7EAC" alt="版本"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E5%85%8D%E8%B4%B9-%E6%97%A0%E5%B9%BF%E5%91%8A-111314" alt="免费，无广告">
-  <a href="https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b"><img src="https://img.shields.io/badge/VirusTotal-0%2F42-2E7D32" alt="VirusTotal 0/42"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%E4%B8%8B%E8%BD%BD&color=858A8D" alt="下载量"></a>
 </p>
 
@@ -154,6 +154,8 @@ Grimsby 专为完整聆听专辑而设计。整个收藏按发行年份排列：
 **收藏**：你有多少曲目、专辑、流派、GB 和小时的音乐，无损占比多少——以及有多少专辑你**从未播放过**。
 **专辑统计**：打开任意专辑，看看你多久听一次、实际听完了多少、跳过了哪些曲目。用箭头翻看过去的每周、每月和每年。
 
+可以直接在统计中把艺人或专辑从排行榜隐藏，并在 **已隐藏** 中恢复。**需要听多久** 显示整个媒体库、已播放和未播放的部分，以及每天听 1、2 或 4 小时需要多少天听完。
+
 ![收藏统计](screenshots/zh/stats-collection.jpg)
 
 ![专辑统计](screenshots/zh/album-stats.jpg)
@@ -174,6 +176,10 @@ Grimsby 标志性的蓝色、石墨色和「纸张」色。可选择主题或跟
 ![浅色主题](screenshots/zh/home-light.jpg)
 
 ![可按列排序的全部曲目](screenshots/zh/all-tracks-light.jpg)
+
+### 🖼 个性外观
+
+选择软件颜色——按钮、选中项、链接和进度条都会随之变色——以及窗口背景：纯色、渐变、你自己的照片或无声视频。暗化、背景模糊和面板密度都可调节；窗口最小化或开启 **适用于低配电脑** 模式时，视频会自动暂停。设置分为多个分区，顶部有搜索。
 
 ### 🪟 与 Windows 融为一体
 
@@ -207,9 +213,7 @@ Grimsby 标志性的蓝色、石墨色和「纸张」色。可选择主题或跟
 
 ### 🧩 播放器里的 Grimsby 应用
 
-在 设置 → 关于 中有 **反馈**（Telegram、邮件、GitHub）和 **Grimsby 应用**：Converter、Tagger、Prompter 和 Helper，附有介绍和截图。一键下载安装。
-
-![“关于”中的 Grimsby 应用](screenshots/zh/apps.jpg)
+设置 → 关于 中有 **反馈**（Telegram、邮件、GitHub）和 **Grimsby 软件**：Converter、Tagger、Prompter、Helper、Studio 和 Notes，附说明和截图，一键下载安装。
 
 ### 🛠 还有更多
 
@@ -218,15 +222,13 @@ Grimsby 标志性的蓝色、石墨色和「纸张」色。可选择主题或跟
 - **内置指南「如何准备文件」**，语言通俗易懂。
 - **更新方式由你决定**：「仅通知」「自动」或「不检查」。
 
-![设置](screenshots/zh/settings-light.jpg)
-
 ---
 
 ## 下载与安装
 
 1. 打开**[最新版本](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)**页面，下载 `Grimsby-Player-Setup-X.Y.Z.exe`。
 2. 运行安装程序。Windows 可能会弹出蓝色的「Windows 已保护你的电脑」窗口——这是没有付费代码签名的程序常见的提示。点击**更多信息 → 仍要运行**。
-   安装程序已在 VirusTotal 上检测：[67 款杀毒引擎均未发现问题](https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a)（1.9.0 版）。
+   安装程序已在 VirusTotal 上检测：[42 款杀毒引擎均未发现问题](https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b)（1.10.0 版）。
 3. 首次启动时选择你的音乐文件夹（如果需要，也可以选择视频文件夹），其余交给 Grimsby。
 
 **系统要求：** Windows 10 或 11（64 位）。只有更新和可选的艺人照片需要联网。
@@ -269,11 +271,15 @@ Grimsby **完全在你的电脑上运行**。没有账号、没有广告、没�
 
 <table>
   <tr>
-    <td align="center" width="20%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-zh.svg" alt=""></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.zh.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>视频、音频、照片和文档，离线转换</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.zh.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>批量标签编辑：专辑、封面、文件名</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.zh.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>会跟随你声音的简单提词器</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.zh.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>电脑状态一目了然：进程、温度、清理</sub></td>
+    <td align="center" width="25%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-zh.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.zh.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>视频、音频、照片和文档，离线转换</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.zh.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>批量标签编辑：专辑、封面、文件名</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.zh.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>会跟随你声音的简单提词器</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.zh.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>电脑状态一目了然：进程、温度、清理</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-studio/blob/main/README.zh.md"><img src="screenshots/family/studio.png" width="56" alt=""><br><b>Grimsby Studio</b></a><br><sub>带动画音乐插段的视频编辑器</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-notes/blob/main/README.zh.md"><img src="screenshots/family/notes.png" width="56" alt=""><br><b>Grimsby Notes</b></a><br><sub>任务、项目、笔记和日历，一个窗口全搞定</sub></td>
   </tr>
 </table>
 

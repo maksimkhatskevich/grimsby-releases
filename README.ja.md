@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3&color=3F7EAC" alt="バージョン"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E7%84%A1%E6%96%99-%E5%BA%83%E5%91%8A%E3%81%AA%E3%81%97-111314" alt="無料・広告なし">
-  <a href="https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b"><img src="https://img.shields.io/badge/VirusTotal-0%2F42-2E7D32" alt="VirusTotal 0/42"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89&color=858A8D" alt="ダウンロード数"></a>
 </p>
 
@@ -154,6 +154,8 @@ MV は見ない？ 設定のスイッチひとつで動画セクションごと�
 **コレクション**：曲数、アルバム数、ジャンル数、容量、総再生時間、ロスレスの割合——そして**一度も再生していない**アルバムの数。
 **アルバムの統計**：どのアルバムでも、どれくらいの頻度で聴いているか、実際にどこまで聴いているか、どの曲を飛ばしているかがわかります。過去の週・月・年は矢印でさかのぼれます。
 
+アーティストやアルバムは統計画面からランキングで非表示にでき、**非表示** から戻せます。**聴くのにかかる時間** では、ライブラリ全体、再生済みと未再生、1 日 1・2・4 時間聴いた場合に何日で聴き終わるかがわかります。
+
 ![コレクションの統計](screenshots/ja/stats-collection.jpg)
 
 ![アルバムの統計](screenshots/ja/album-stats.jpg)
@@ -174,6 +176,10 @@ Grimsby を象徴するブルー、グラファイト、そして「紙」の色
 ![ライトテーマ](screenshots/ja/home-light.jpg)
 
 ![列で並べ替えできるすべての曲](screenshots/ja/all-tracks-light.jpg)
+
+### 🖼 自分好みの見た目
+
+アプリの色（ボタン、選択項目、リンク、進行バーに使われます）とウィンドウの背景（単色、グラデーション、自分の写真、音なしの動画）を選べます。暗さ、背景のぼかし、パネルの濃さも調整でき、ウィンドウを最小化したときや **低スペックPC向け** モードでは動画が自動で一時停止します。設定はセクションに分かれ、上に検索があります。
 
 ### 🪟 Windows にしっかりなじむ
 
@@ -207,9 +213,7 @@ Grimsby を象徴するブルー、グラファイト、そして「紙」の色
 
 ### 🧩 プレーヤーから Grimsby のアプリへ
 
-設定 → このアプリについて に **フィードバック**（Telegram、メール、GitHub）と **Grimsby アプリ** があります。Converter、Tagger、Prompter、Helper を説明とスクリーンショット付きで紹介し、ワンクリックでダウンロード・インストールできます。
-
-![「このアプリについて」の Grimsby のアプリ](screenshots/ja/apps.jpg)
+設定 → 情報 に **フィードバック**（Telegram、メール、GitHub）と **Grimsby アプリ** があります。Converter、Tagger、Prompter、Helper、Studio、Notes を説明とスクリーンショット付きで紹介し、ワンクリックでダウンロードとインストールができます。
 
 ### 🛠 そのほか
 
@@ -218,15 +222,13 @@ Grimsby を象徴するブルー、グラファイト、そして「紙」の色
 - **組み込みガイド「ファイルの準備方法」**：わかりやすい言葉で。
 - **アップデートは好みで**：「通知のみ」「自動」「確認しない」。
 
-![設定](screenshots/ja/settings-light.jpg)
-
 ---
 
 ## ダウンロードとインストール
 
 1. **[最新バージョン](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)**のページを開き、`Grimsby-Player-Setup-X.Y.Z.exe` をダウンロードします。
 2. インストーラーを実行します。Windows に青い「Windows によって PC が保護されました」画面が表示されることがあります。これは有料のコード署名がないアプリでよく出る警告です。**詳細情報 → 実行** をクリックしてください。
-   インストーラーは VirusTotal で確認済みです：[67 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a)（バージョン 1.9.0）。
+   インストーラーは VirusTotal で確認済みです：[42 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b)（バージョン 1.10.0）。
 3. 初回起動時に音楽フォルダー（必要なら動画フォルダーも）を選べば、あとは Grimsby におまかせです。
 
 **動作環境：** Windows 10 または 11（64 ビット）。インターネットはアップデートと任意のアーティスト写真にのみ使います。
@@ -269,11 +271,15 @@ Grimsby は**すべてあなたのパソコン上で動作します**。アカ�
 
 <table>
   <tr>
-    <td align="center" width="20%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-ja.svg" alt=""></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ja.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>動画・音声・写真・文書をオフラインで変換</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ja.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>タグ一括編集：アルバム、カバー、ファイル名</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ja.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>声についてくる、シンプルなプロンプター</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.ja.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC の状態がひと目でわかる：プロセス、温度、クリーンアップ</sub></td>
+    <td align="center" width="25%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-ja.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ja.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>動画・音声・写真・文書をオフラインで変換</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ja.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>タグ一括編集：アルバム、カバー、ファイル名</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ja.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>声についてくる、シンプルなプロンプター</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.ja.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC の状態がひと目でわかる：プロセス、温度、クリーンアップ</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-studio/blob/main/README.ja.md"><img src="screenshots/family/studio.png" width="56" alt=""><br><b>Grimsby Studio</b></a><br><sub>アニメーション付き音楽インサートが作れる動画エディター</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-notes/blob/main/README.ja.md"><img src="screenshots/family/notes.png" width="56" alt=""><br><b>Grimsby Notes</b></a><br><sub>タスク、プロジェクト、ノート、カレンダーをひとつのウィンドウで</sub></td>
   </tr>
 </table>
 

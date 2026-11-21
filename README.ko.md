@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%EB%B2%84%EC%A0%84&color=3F7EAC" alt="버전"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%EB%AC%B4%EB%A3%8C-%EA%B4%91%EA%B3%A0%20%EC%97%86%EC%9D%8C-111314" alt="무료, 광고 없음">
-  <a href="https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b"><img src="https://img.shields.io/badge/VirusTotal-0%2F42-2E7D32" alt="VirusTotal 0/42"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C&color=858A8D" alt="다운로드"></a>
 </p>
 
@@ -154,6 +154,8 @@ Grimsby는 앨범을 처음부터 끝까지 듣기 위해 만들어졌습니다.
 **컬렉션**: 곡, 앨범, 장르, 용량, 총 재생 시간, 무손실 비율 — 그리고 **한 번도 재생하지 않은** 앨범 수까지.
 **앨범 통계**: 어떤 앨범이든 얼마나 자주 듣는지, 실제로 얼마나 끝까지 듣는지, 어떤 곡을 건너뛰는지 볼 수 있습니다. 지난 주·월·년은 화살표로 넘겨 볼 수 있습니다.
 
+통계에서 바로 아티스트나 앨범을 순위에서 숨기고 **숨김**에서 되돌릴 수 있습니다. **다 듣는 데 걸리는 시간**은 전체 라이브러리, 이미 들은 것과 아직 안 들은 것, 하루 1·2·4시간씩 들으면 며칠이 걸리는지 보여 줍니다.
+
 ![컬렉션 통계](screenshots/ko/stats-collection.jpg)
 
 ![앨범 통계](screenshots/ko/album-stats.jpg)
@@ -174,6 +176,10 @@ Grimsby의 상징인 블루, 그래파이트, 그리고 「종이」 색. 테마
 ![라이트 테마](screenshots/ko/home-light.jpg)
 
 ![열별로 정렬되는 모든 곡](screenshots/ko/all-tracks-light.jpg)
+
+### 🖼 나만의 모양
+
+앱 색(버튼, 선택한 항목, 링크, 진행 막대에 쓰임)과 창 배경(단색, 그라데이션, 내 사진, 소리 없는 동영상)을 고르세요. 어둡게 하기, 배경 흐림, 패널 농도를 조절할 수 있고, 창을 최소화하거나 **저사양 PC용** 모드일 때는 동영상이 저절로 멈춥니다. 설정은 섹션으로 나뉘고 위쪽에 검색이 있습니다.
 
 ### 🪟 Windows와 잘 어울리는 앱
 
@@ -207,9 +213,7 @@ Grimsby의 상징인 블루, 그래파이트, 그리고 「종이」 색. 테마
 
 ### 🧩 플레이어 안의 Grimsby 앱
 
-설정 → 정보에 **피드백**(Telegram, 이메일, GitHub)과 **Grimsby 앱** 이 있습니다. Converter, Tagger, Prompter, Helper를 설명과 스크린샷과 함께 보여 주며, 클릭 한 번으로 내려받아 설치할 수 있습니다.
-
-![정보의 Grimsby 앱](screenshots/ko/apps.jpg)
+설정 → 정보에 **피드백**(Telegram, 이메일, GitHub)과 **Grimsby 앱**이 있습니다. Converter, Tagger, Prompter, Helper, Studio, Notes를 설명과 스크린샷으로 보여 주고 클릭 한 번으로 내려받아 설치합니다.
 
 ### 🛠 그 밖에도
 
@@ -218,15 +222,13 @@ Grimsby의 상징인 블루, 그래파이트, 그리고 「종이」 색. 테마
 - **내장 가이드 「파일 준비 방법」**: 쉬운 말로 설명합니다.
 - **업데이트는 원하는 방식으로**: 「알림만」, 「자동」, 「확인 안 함」.
 
-![설정](screenshots/ko/settings-light.jpg)
-
 ---
 
 ## 다운로드 및 설치
 
 1. **[최신 버전](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** 페이지를 열고 `Grimsby-Player-Setup-X.Y.Z.exe`를 내려받습니다.
 2. 설치 프로그램을 실행합니다. Windows가 파란색 「Windows의 PC 보호」 창을 띄울 수 있는데, 유료 코드 서명이 없는 프로그램에서 흔히 나오는 경고입니다. **추가 정보 → 실행** 을 누르세요.
-   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 67개 모두 이상 없음](https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a) (버전 1.9.0).
+   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 42개 모두 이상 없음](https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b) (버전 1.10.0).
 3. 처음 실행할 때 음악 폴더(원하면 영상 폴더도)를 선택하면, 나머지는 Grimsby가 알아서 합니다.
 
 **요구 사항:** Windows 10 또는 11 (64비트). 인터넷은 업데이트와 선택 사항인 아티스트 사진에만 필요합니다.
@@ -269,11 +271,15 @@ Grimsby는 **전부 내 컴퓨터에서 작동합니다**. 계정, 광고, 분�
 
 <table>
   <tr>
-    <td align="center" width="20%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-ko.svg" alt=""></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ko.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>영상, 오디오, 사진, 문서를 오프라인으로 변환</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ko.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>태그 일괄 편집: 앨범, 커버, 파일 이름</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ko.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>목소리를 따라가는 간단한 프롬프터</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.ko.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC 상태를 한눈에: 프로세스, 온도, 정리</sub></td>
+    <td align="center" width="25%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-ko.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ko.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>영상, 오디오, 사진, 문서를 오프라인으로 변환</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ko.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>태그 일괄 편집: 앨범, 커버, 파일 이름</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ko.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>목소리를 따라가는 간단한 프롬프터</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.ko.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC 상태를 한눈에: 프로세스, 온도, 정리</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-studio/blob/main/README.ko.md"><img src="screenshots/family/studio.png" width="56" alt=""><br><b>Grimsby Studio</b></a><br><sub>애니메이션 음악 인서트를 만드는 동영상 편집기</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-notes/blob/main/README.ko.md"><img src="screenshots/family/notes.png" width="56" alt=""><br><b>Grimsby Notes</b></a><br><sub>할 일, 프로젝트, 노트, 캘린더를 한 창에서</sub></td>
   </tr>
 </table>
 

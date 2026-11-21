@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/free-no%20ads-111314" alt="Free, no ads">
-  <a href="https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b"><img src="https://img.shields.io/badge/VirusTotal-0%2F42-2E7D32" alt="VirusTotal 0/42"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -160,6 +160,8 @@ Don't watch videos? Turn the whole section off with a single switch in settings.
 **Collection**: how many tracks, albums, genres, gigabytes and hours of music you have, what share is lossless — and how many albums you've **never played**.
 **Album stats**: open any album to see how often you play it, how much of it you actually hear and which tracks you skip. Flip back through past weeks, months and years with the arrows.
 
+Hide an artist or album from the tops right in the stats and bring it back from **Hidden**. **How long to listen** shows the whole library, what has already played, what hasn’t, and how many days it takes to hear everything at 1, 2 or 4 hours a day.
+
 ![Collection stats](screenshots/en/stats-collection.jpg)
 
 ![Album stats](screenshots/en/album-stats.jpg)
@@ -180,6 +182,10 @@ Grimsby's signature blue, graphite and "paper". Pick a theme or follow Windows. 
 ![Light theme](screenshots/en/home-light.jpg)
 
 ![All tracks with sortable columns](screenshots/en/all-tracks-light.jpg)
+
+### 🖼 Your own look
+
+Pick the app color — it tints buttons, selected items, links and progress bars — and the window background: a color, a gradient, your own photo or a silent video. Dimming, background blur and panel density are adjustable, and the video pauses by itself when the window is minimized or **For older PCs** mode is on. Settings are split into sections with a search at the top.
 
 ### 🪟 Feels at home in Windows
 
@@ -213,9 +219,7 @@ One album order for every year in Library and Videos, with exceptions for any ye
 
 ### 🧩 Grimsby apps, right in the player
 
-Settings → About has **Feedback** (Telegram, email, GitHub) and **Grimsby apps**: Converter, Tagger, Prompter and Helper with descriptions and screenshots. Download and install in one click.
-
-![Grimsby apps in About](screenshots/en/apps.jpg)
+Settings → About has **Feedback** (Telegram, email, GitHub) and **Grimsby apps**: Converter, Tagger, Prompter, Helper, Studio and Notes with descriptions and screenshots. Download and install in one click.
 
 ### 🛠 And more
 
@@ -224,15 +228,13 @@ Settings → About has **Feedback** (Telegram, email, GitHub) and **Grimsby apps
 - **Built-in guide "How to prepare files"** in plain language.
 - **Updates your way**: notify only, install automatically, or don't check at all.
 
-![Settings](screenshots/en/settings-light.jpg)
-
 ---
 
 ## Download and install
 
 1. Open the **[latest release](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** page and download `Grimsby-Player-Setup-X.Y.Z.exe`.
 2. Run the installer. Windows may show a blue "Windows protected your PC" window — that's a normal warning for apps without a paid code-signing certificate. Click **More info → Run anyway**.
-   The installer has been checked on VirusTotal: [0 of 67 antivirus engines flag it](https://www.virustotal.com/gui/file/06b8aad3387ab36913b5d432cbcccdad2edeb9f032db192f3d095517357a6a2a) (version 1.9.0).
+   The installer has been checked on VirusTotal: [0 of 42 antivirus engines flag it](https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b) (version 1.10.0).
 3. On first launch, pick your music folder (and, if you like, your videos folder). Grimsby takes care of the rest.
 
 **Requirements:** Windows 10 or 11 (64-bit). Internet is only needed for updates and optional artist photos.
@@ -279,11 +281,15 @@ The app only goes online for updates and — unless you turn it off — for arti
 
 <table>
   <tr>
-    <td align="center" width="20%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-en.svg" alt=""></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Video, audio, photos and documents — converted offline</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Batch tag editor: albums, covers, file names</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>A simple teleprompter that follows your voice</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC health at a glance: processes, temperatures, cleanup</sub></td>
+    <td align="center" width="25%"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b><br><img src="screenshots/family/here-en.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-converter"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Video, audio, photos and documents — converted offline</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Batch tag editor: albums, covers, file names</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>A simple teleprompter that follows your voice</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-helper"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC health at a glance: processes, temperatures, cleanup</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-studio"><img src="screenshots/family/studio.png" width="56" alt=""><br><b>Grimsby Studio</b></a><br><sub>Video editor with animated music inserts</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-notes"><img src="screenshots/family/notes.png" width="56" alt=""><br><b>Grimsby Notes</b></a><br><sub>Tasks, projects, notes and calendar in one window</sub></td>
   </tr>
 </table>
 
