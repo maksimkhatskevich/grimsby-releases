@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=3F7EAC" alt="Версия"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE-%D0%B1%D0%B5%D0%B7%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B-111314" alt="Бесплатно, без рекламы">
-  <a href="https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b"><img src="https://img.shields.io/badge/VirusTotal-0%2F42-2E7D32" alt="VirusTotal 0/42"></a>
+  <a href="https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=858A8D" alt="Скачивания"></a>
 </p>
 
@@ -233,7 +233,7 @@ Grimsby рассчитан на прослушивание альбомами. �
 
 1. Откройте страницу **[последней версии](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** и скачайте файл `Grimsby-Player-Setup-X.Y.Z.exe`.
 2. Запустите установщик. Windows может показать синее окно «Windows защитила ваш компьютер». Это обычное предупреждение для программ без платной цифровой подписи. Нажмите **«Подробнее» → «Выполнить в любом случае»**.
-   Установщик проверен на VirusTotal: [ни один из 42 антивирусов ничего не нашёл](https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b) (версия 1.10.0).
+   Установщик проверен на VirusTotal: [ни один из 67 антивирусов ничего не нашёл](https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799) (версия 1.10.1).
 3. При первом запуске укажите папку с музыкой (и, если хотите, с клипами). Остальное Grimsby сделает сам.
 
 **Требования:** Windows 10 или 11 (64 бит). Интернет нужен только для обновлений и необязательных фото исполнителей.

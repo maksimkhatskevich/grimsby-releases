@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3&color=3F7EAC" alt="バージョン"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E7%84%A1%E6%96%99-%E5%BA%83%E5%91%8A%E3%81%AA%E3%81%97-111314" alt="無料・広告なし">
-  <a href="https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b"><img src="https://img.shields.io/badge/VirusTotal-0%2F42-2E7D32" alt="VirusTotal 0/42"></a>
+  <a href="https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89&color=858A8D" alt="ダウンロード数"></a>
 </p>
 
@@ -228,7 +228,7 @@ Grimsby を象徴するブルー、グラファイト、そして「紙」の色
 
 1. **[最新バージョン](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)**のページを開き、`Grimsby-Player-Setup-X.Y.Z.exe` をダウンロードします。
 2. インストーラーを実行します。Windows に青い「Windows によって PC が保護されました」画面が表示されることがあります。これは有料のコード署名がないアプリでよく出る警告です。**詳細情報 → 実行** をクリックしてください。
-   インストーラーは VirusTotal で確認済みです：[42 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b)（バージョン 1.10.0）。
+   インストーラーは VirusTotal で確認済みです：[67 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799)（バージョン 1.10.1）。
 3. 初回起動時に音楽フォルダー（必要なら動画フォルダーも）を選べば、あとは Grimsby におまかせです。
 
 **動作環境：** Windows 10 または 11（64 ビット）。インターネットはアップデートと任意のアーティスト写真にのみ使います。

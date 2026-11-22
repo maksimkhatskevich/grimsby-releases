@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/free-no%20ads-111314" alt="Free, no ads">
-  <a href="https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b"><img src="https://img.shields.io/badge/VirusTotal-0%2F42-2E7D32" alt="VirusTotal 0/42"></a>
+  <a href="https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -234,7 +234,7 @@ Settings → About has **Feedback** (Telegram, email, GitHub) and **Grimsby apps
 
 1. Open the **[latest release](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** page and download `Grimsby-Player-Setup-X.Y.Z.exe`.
 2. Run the installer. Windows may show a blue "Windows protected your PC" window — that's a normal warning for apps without a paid code-signing certificate. Click **More info → Run anyway**.
-   The installer has been checked on VirusTotal: [0 of 42 antivirus engines flag it](https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b) (version 1.10.0).
+   The installer has been checked on VirusTotal: [0 of 67 antivirus engines flag it](https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799) (version 1.10.1).
 3. On first launch, pick your music folder (and, if you like, your videos folder). Grimsby takes care of the rest.
 
 **Requirements:** Windows 10 or 11 (64-bit). Internet is only needed for updates and optional artist photos.

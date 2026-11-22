@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=versi%C3%B3n&color=3F7EAC" alt="Versión"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/gratis-sin%20anuncios-111314" alt="Gratis, sin anuncios">
-  <a href="https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b"><img src="https://img.shields.io/badge/VirusTotal-0%2F42-2E7D32" alt="VirusTotal 0/42"></a>
+  <a href="https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=descargas&color=858A8D" alt="Descargas"></a>
 </p>
 
@@ -228,7 +228,7 @@ En Ajustes → Acerca de están **Comentarios** (Telegram, correo, GitHub) y **A
 
 1. Abre la página de la **[última versión](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** y descarga `Grimsby-Player-Setup-X.Y.Z.exe`.
 2. Ejecuta el instalador. Windows puede mostrar la ventana azul «Windows protegió su PC»: es un aviso normal para programas sin firma digital de pago. Pulsa **Más información → Ejecutar de todas formas**.
-   El instalador se ha analizado en VirusTotal: [ninguno de 42 antivirus detecta nada](https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b) (versión 1.10.0).
+   El instalador se ha analizado en VirusTotal: [ninguno de 67 antivirus detecta nada](https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799) (versión 1.10.1).
 3. En el primer inicio, elige tu carpeta de música (y, si quieres, la de videos). Grimsby hace el resto.
 
 **Requisitos:** Windows 10 u 11 (64 bits). Internet solo hace falta para actualizaciones y fotos de artistas opcionales.

@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%E7%89%88%E6%9C%AC&color=3F7EAC" alt="版本"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E5%85%8D%E8%B4%B9-%E6%97%A0%E5%B9%BF%E5%91%8A-111314" alt="免费，无广告">
-  <a href="https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b"><img src="https://img.shields.io/badge/VirusTotal-0%2F42-2E7D32" alt="VirusTotal 0/42"></a>
+  <a href="https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%E4%B8%8B%E8%BD%BD&color=858A8D" alt="下载量"></a>
 </p>
 
@@ -228,7 +228,7 @@ Grimsby 标志性的蓝色、石墨色和「纸张」色。可选择主题或跟
 
 1. 打开**[最新版本](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)**页面，下载 `Grimsby-Player-Setup-X.Y.Z.exe`。
 2. 运行安装程序。Windows 可能会弹出蓝色的「Windows 已保护你的电脑」窗口——这是没有付费代码签名的程序常见的提示。点击**更多信息 → 仍要运行**。
-   安装程序已在 VirusTotal 上检测：[42 款杀毒引擎均未发现问题](https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b)（1.10.0 版）。
+   安装程序已在 VirusTotal 上检测：[67 款杀毒引擎均未发现问题](https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799)（1.10.1 版）。
 3. 首次启动时选择你的音乐文件夹（如果需要，也可以选择视频文件夹），其余交给 Grimsby。
 
 **系统要求：** Windows 10 或 11（64 位）。只有更新和可选的艺人照片需要联网。

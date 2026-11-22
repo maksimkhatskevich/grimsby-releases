@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%EB%B2%84%EC%A0%84&color=3F7EAC" alt="버전"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%EB%AC%B4%EB%A3%8C-%EA%B4%91%EA%B3%A0%20%EC%97%86%EC%9D%8C-111314" alt="무료, 광고 없음">
-  <a href="https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b"><img src="https://img.shields.io/badge/VirusTotal-0%2F42-2E7D32" alt="VirusTotal 0/42"></a>
+  <a href="https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C&color=858A8D" alt="다운로드"></a>
 </p>
 
@@ -228,7 +228,7 @@ Grimsby의 상징인 블루, 그래파이트, 그리고 「종이」 색. 테마
 
 1. **[최신 버전](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** 페이지를 열고 `Grimsby-Player-Setup-X.Y.Z.exe`를 내려받습니다.
 2. 설치 프로그램을 실행합니다. Windows가 파란색 「Windows의 PC 보호」 창을 띄울 수 있는데, 유료 코드 서명이 없는 프로그램에서 흔히 나오는 경고입니다. **추가 정보 → 실행** 을 누르세요.
-   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 42개 모두 이상 없음](https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b) (버전 1.10.0).
+   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 67개 모두 이상 없음](https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799) (버전 1.10.1).
 3. 처음 실행할 때 음악 폴더(원하면 영상 폴더도)를 선택하면, 나머지는 Grimsby가 알아서 합니다.
 
 **요구 사항:** Windows 10 또는 11 (64비트). 인터넷은 업데이트와 선택 사항인 아티스트 사진에만 필요합니다.

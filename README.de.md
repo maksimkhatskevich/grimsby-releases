@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=Version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/kostenlos-ohne%20Werbung-111314" alt="Kostenlos, ohne Werbung">
-  <a href="https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b"><img src="https://img.shields.io/badge/VirusTotal-0%2F42-2E7D32" alt="VirusTotal 0/42"></a>
+  <a href="https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=Downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -228,7 +228,7 @@ Unter Einstellungen → Über gibt es **Feedback** (Telegram, E-Mail, GitHub) un
 
 1. Öffne die Seite der **[neuesten Version](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** und lade `Grimsby-Player-Setup-X.Y.Z.exe` herunter.
 2. Starte das Installationsprogramm. Windows zeigt eventuell das blaue Fenster „Der Computer wurde durch Windows geschützt“ — eine übliche Warnung bei Programmen ohne kostenpflichtige Signatur. Klicke auf **Weitere Informationen → Trotzdem ausführen**.
-   Das Installationsprogramm wurde bei VirusTotal geprüft: [keiner der 42 Virenscanner schlägt an](https://www.virustotal.com/gui/file/cd84cb09879b227d1e1acb80da62985b515666c8056d0c93bc0018b9bdd5bb0b) (Version 1.10.0).
+   Das Installationsprogramm wurde bei VirusTotal geprüft: [keiner der 67 Virenscanner schlägt an](https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799) (Version 1.10.1).
 3. Wähle beim ersten Start deinen Musikordner (und auf Wunsch deinen Videoordner). Den Rest erledigt Grimsby.
 
 **Voraussetzungen:** Windows 10 oder 11 (64 Bit). Internet wird nur für Updates und optionale Interpretenfotos benötigt.
