@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/gratuit-sans%20pub-111314" alt="Gratuit, sans pub">
-  <a href="https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/4a6597461a684109911c05d3b3ab3054772780af9edd355a9dc97e7f05cc918a"><img src="https://img.shields.io/badge/VirusTotal-0%2F62-2E7D32" alt="VirusTotal 0/62"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=t%C3%A9l%C3%A9chargements&color=858A8D" alt="Téléchargements"></a>
 </p>
 
@@ -203,6 +203,10 @@ Le nouveau style **Reflets** transforme la page d’un album en couleurs de sa p
 
 ![Page d’album en style Reflets](screenshots/fr/album-flow.jpg)
 
+### 🖥 Plein écran, disques et artistes
+
+**Plein écran** affiche la pochette, le morceau, les artistes et l’album sur tout l’écran — pratique sur un second moniteur en fond. Le bouton est dans la barre du lecteur et dans « En cours de lecture », ou appuyez sur F ; les commandes et le curseur se masquent quand la souris ne bouge pas, Échap pour quitter. Les albums à plusieurs disques se replient disque par disque, et le choix est mémorisé. Les artistes sont bien séparés : « Anderson .Paak; Cordae » sur un album ou « A & B » sur un morceau deviennent des artistes distincts avec leurs pages, tandis que des groupes comme « Mumford & Sons » restent entiers. En cas d’erreur, corrigez depuis le menu du morceau — le fichier n’est pas modifié.
+
 ### 🗂 Tri et Partager
 
 Un même ordre d’albums pour toutes les années dans Bibliothèque et Vidéos, avec des exceptions pour n’importe quelle année — avec leur propre ordre et sens. Les articles The, A et An sont ignorés au tri : The Weeknd se range à W. **Partager** rassemble un album (ou tous les albums d’un artiste) dans un ZIP — audio, pochette et, si vous voulez, clips ; l’option **Plus léger** réencode les morceaux en MP3 320 ou AAC 256, et la taille de l’archive s’affiche à l’avance.
@@ -228,7 +232,7 @@ Réglages → À propos contient **Votre avis** (Telegram, e-mail, GitHub) et **
 
 1. Ouvrez la page de la **[dernière version](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** et téléchargez `Grimsby-Player-Setup-X.Y.Z.exe`.
 2. Lancez l’installeur. Windows peut afficher la fenêtre bleue « Windows a protégé votre ordinateur » — un avertissement habituel pour les logiciels sans signature payante. Cliquez sur **Informations complémentaires → Exécuter quand même**.
-   L’installeur a été vérifié sur VirusTotal : [aucun des 67 antivirus ne détecte quoi que ce soit](https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799) (version 1.10.1).
+   L’installeur a été vérifié sur VirusTotal : [aucun des 62 antivirus ne détecte quoi que ce soit](https://www.virustotal.com/gui/file/4a6597461a684109911c05d3b3ab3054772780af9edd355a9dc97e7f05cc918a) (version 1.10.2).
 3. Au premier lancement, choisissez votre dossier de musique (et, si vous voulez, celui des vidéos). Grimsby s’occupe du reste.
 
 **Configuration requise :** Windows 10 ou 11 (64 bits). Internet n’est nécessaire que pour les mises à jour et les photos d’artistes facultatives.

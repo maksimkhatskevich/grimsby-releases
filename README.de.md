@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=Version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/kostenlos-ohne%20Werbung-111314" alt="Kostenlos, ohne Werbung">
-  <a href="https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/4a6597461a684109911c05d3b3ab3054772780af9edd355a9dc97e7f05cc918a"><img src="https://img.shields.io/badge/VirusTotal-0%2F62-2E7D32" alt="VirusTotal 0/62"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=Downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -203,6 +203,10 @@ Der neue Stil **Schimmern** verwandelt eine Albumseite in die langsam fließende
 
 ![Albumseite im Stil Schimmern](screenshots/de/album-flow.jpg)
 
+### 🖥 Vollbild, Discs und Interpreten
+
+**Vollbild** zeigt Cover, Titel, Interpreten und Album bildschirmfüllend – praktisch auf einem zweiten Monitor als Hintergrund. Die Schaltfläche sitzt in der Player-Leiste und in „Läuft gerade“, oder drück F; Bedienelemente und Mauszeiger verschwinden, wenn die Maus ruht, Esc beendet. Alben mit mehreren Discs lassen sich pro Disc einklappen, die Wahl wird gemerkt. Interpreten werden sauber getrennt: „Anderson .Paak; Cordae“ beim Album oder „A & B“ beim Titel sind eigene Interpreten mit eigenen Seiten, Bands wie „Mumford & Sons“ bleiben ganz. Liegt die App falsch, korrigiere es im Titelmenü – die Datei bleibt unverändert.
+
 ### 🗂 Sortierung und Teilen
 
 Eine Albenreihenfolge für alle Jahre in Bibliothek und Videos, mit Ausnahmen für jedes Jahr – mit eigener Reihenfolge und Richtung. Die Artikel The, A und An werden beim Sortieren ignoriert: The Weeknd steht unter W. **Teilen** packt ein Album (oder alle Alben eines Interpreten) in ein ZIP – Audio, Cover und auf Wunsch Musikvideos; die Option **Kleiner** kodiert die Titel in MP3 320 oder AAC 256 um, und die Größe des Archivs siehst du vorher.
@@ -228,7 +232,7 @@ Unter Einstellungen → Über gibt es **Feedback** (Telegram, E-Mail, GitHub) un
 
 1. Öffne die Seite der **[neuesten Version](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** und lade `Grimsby-Player-Setup-X.Y.Z.exe` herunter.
 2. Starte das Installationsprogramm. Windows zeigt eventuell das blaue Fenster „Der Computer wurde durch Windows geschützt“ — eine übliche Warnung bei Programmen ohne kostenpflichtige Signatur. Klicke auf **Weitere Informationen → Trotzdem ausführen**.
-   Das Installationsprogramm wurde bei VirusTotal geprüft: [keiner der 67 Virenscanner schlägt an](https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799) (Version 1.10.1).
+   Das Installationsprogramm wurde bei VirusTotal geprüft: [keiner der 62 Virenscanner schlägt an](https://www.virustotal.com/gui/file/4a6597461a684109911c05d3b3ab3054772780af9edd355a9dc97e7f05cc918a) (Version 1.10.2).
 3. Wähle beim ersten Start deinen Musikordner (und auf Wunsch deinen Videoordner). Den Rest erledigt Grimsby.
 
 **Voraussetzungen:** Windows 10 oder 11 (64 Bit). Internet wird nur für Updates und optionale Interpretenfotos benötigt.

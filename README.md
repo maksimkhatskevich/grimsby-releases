@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=version&color=3F7EAC" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/free-no%20ads-111314" alt="Free, no ads">
-  <a href="https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/4a6597461a684109911c05d3b3ab3054772780af9edd355a9dc97e7f05cc918a"><img src="https://img.shields.io/badge/VirusTotal-0%2F62-2E7D32" alt="VirusTotal 0/62"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -209,6 +209,10 @@ The new **Shimmer** style turns an album page into the slowly flowing colors of 
 
 ![Album page in the Shimmer style](screenshots/en/album-flow.jpg)
 
+### 🖥 Fullscreen, discs and artists
+
+**Fullscreen** shows the cover, track, artists and album across the whole screen — handy on a second monitor as a background. The button is in the player bar and in Now playing, or press F; controls and the cursor hide when the mouse is still, Esc exits. Multi-disc albums can be collapsed disc by disc, and the choice is remembered. Artists are split properly: “Anderson .Paak; Cordae” on an album or “A & B” on a track become separate artists with their own pages, while bands like “Mumford & Sons” stay whole. If it guesses wrong, fix it from the track menu — the file isn’t changed.
+
 ### 🗂 Sorting and Share
 
 One album order for every year in Library and Videos, with exceptions for any year — its own order and direction. The articles The, A and An are ignored when sorting: The Weeknd sits under W. **Share** packs an album (or all of an artist’s albums) into one ZIP — audio, cover and, if you like, music videos; the **Smaller** option re-encodes tracks to MP3 320 or AAC 256, and the archive size is shown in advance.
@@ -234,7 +238,7 @@ Settings → About has **Feedback** (Telegram, email, GitHub) and **Grimsby apps
 
 1. Open the **[latest release](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** page and download `Grimsby-Player-Setup-X.Y.Z.exe`.
 2. Run the installer. Windows may show a blue "Windows protected your PC" window — that's a normal warning for apps without a paid code-signing certificate. Click **More info → Run anyway**.
-   The installer has been checked on VirusTotal: [0 of 67 antivirus engines flag it](https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799) (version 1.10.1).
+   The installer has been checked on VirusTotal: [0 of 62 antivirus engines flag it](https://www.virustotal.com/gui/file/4a6597461a684109911c05d3b3ab3054772780af9edd355a9dc97e7f05cc918a) (version 1.10.2).
 3. On first launch, pick your music folder (and, if you like, your videos folder). Grimsby takes care of the rest.
 
 **Requirements:** Windows 10 or 11 (64-bit). Internet is only needed for updates and optional artist photos.

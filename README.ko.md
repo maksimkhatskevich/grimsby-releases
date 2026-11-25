@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%EB%B2%84%EC%A0%84&color=3F7EAC" alt="버전"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%EB%AC%B4%EB%A3%8C-%EA%B4%91%EA%B3%A0%20%EC%97%86%EC%9D%8C-111314" alt="무료, 광고 없음">
-  <a href="https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/4a6597461a684109911c05d3b3ab3054772780af9edd355a9dc97e7f05cc918a"><img src="https://img.shields.io/badge/VirusTotal-0%2F62-2E7D32" alt="VirusTotal 0/62"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C&color=858A8D" alt="다운로드"></a>
 </p>
 
@@ -203,6 +203,10 @@ Grimsby의 상징인 블루, 그래파이트, 그리고 「종이」 색. 테마
 
 ![일렁임 스타일의 앨범 페이지](screenshots/ko/album-flow.jpg)
 
+### 🖥 전체 화면, 디스크와 아티스트
+
+**전체 화면**은 커버, 곡, 아티스트, 앨범을 화면 가득 보여 줍니다. 두 번째 모니터에 띄워 배경으로 쓰기 좋습니다. 버튼은 플레이어 막대와 ‘지금 재생 중’에 있고, F 키로도 켤 수 있습니다. 마우스가 멈추면 버튼과 커서가 숨고, Esc로 나갑니다. 여러 디스크로 된 앨범은 디스크별로 접을 수 있고 선택은 기억됩니다. 아티스트도 정확히 나눕니다: 앨범의 “Anderson .Paak; Cordae”나 곡의 “A & B”는 각자 페이지가 있는 별도 아티스트가 되고, “Mumford & Sons” 같은 밴드는 그대로 유지됩니다. 잘못 나뉘었다면 곡 메뉴에서 고치세요. 파일은 바뀌지 않습니다.
+
 ### 🗂 정렬과 공유
 
 “보관함”과 “비디오”의 앨범 순서는 모든 연도에 공통이고, 원하는 연도에는 자체 순서와 방향으로 예외를 둘 수 있습니다. 정렬할 때 관사 The, A, An은 무시합니다. The Weeknd는 W에 놓입니다. **공유** 는 앨범(또는 아티스트의 모든 앨범)을 하나의 ZIP으로 묶습니다. 오디오, 커버, 원하면 뮤직비디오까지. **더 작게** 옵션은 트랙을 MP3 320 또는 AAC 256으로 변환하고, 압축 파일 크기를 미리 보여 줍니다.
@@ -228,7 +232,7 @@ Grimsby의 상징인 블루, 그래파이트, 그리고 「종이」 색. 테마
 
 1. **[최신 버전](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)** 페이지를 열고 `Grimsby-Player-Setup-X.Y.Z.exe`를 내려받습니다.
 2. 설치 프로그램을 실행합니다. Windows가 파란색 「Windows의 PC 보호」 창을 띄울 수 있는데, 유료 코드 서명이 없는 프로그램에서 흔히 나오는 경고입니다. **추가 정보 → 실행** 을 누르세요.
-   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 67개 모두 이상 없음](https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799) (버전 1.10.1).
+   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 62개 모두 이상 없음](https://www.virustotal.com/gui/file/4a6597461a684109911c05d3b3ab3054772780af9edd355a9dc97e7f05cc918a) (버전 1.10.2).
 3. 처음 실행할 때 음악 폴더(원하면 영상 폴더도)를 선택하면, 나머지는 Grimsby가 알아서 합니다.
 
 **요구 사항:** Windows 10 또는 11 (64비트). 인터넷은 업데이트와 선택 사항인 아티스트 사진에만 필요합니다.

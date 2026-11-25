@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3&color=3F7EAC" alt="バージョン"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E7%84%A1%E6%96%99-%E5%BA%83%E5%91%8A%E3%81%AA%E3%81%97-111314" alt="無料・広告なし">
-  <a href="https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/4a6597461a684109911c05d3b3ab3054772780af9edd355a9dc97e7f05cc918a"><img src="https://img.shields.io/badge/VirusTotal-0%2F62-2E7D32" alt="VirusTotal 0/62"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89&color=858A8D" alt="ダウンロード数"></a>
 </p>
 
@@ -203,6 +203,10 @@ Grimsby を象徴するブルー、グラファイト、そして「紙」の色
 
 ![ゆらめきスタイルのアルバムページ](screenshots/ja/album-flow.jpg)
 
+### 🖥 全画面表示、ディスクとアーティスト
+
+**全画面** でジャケット、曲名、アーティスト、アルバムを画面いっぱいに表示。2 台目のモニターに映して背景にするのにも便利です。ボタンはプレーヤーバーと「再生中」にあり、F キーでも切り替え。マウスを動かさなければボタンとカーソルは隠れ、Esc で終了します。複数ディスクのアルバムはディスクごとに折りたためて、選択は記憶されます。アーティストの分割もより正確に：アルバムの「Anderson .Paak; Cordae」や曲の「A & B」は別々のアーティストとしてページを持ち、「Mumford & Sons」のようなバンドはそのまま。間違っていたら曲のメニューから直せます。ファイルは変更されません。
+
 ### 🗂 並べ替えと共有
 
 「ライブラリ」と「ビデオ」のアルバムの並び順はすべての年で共通になり、どの年にも独自の順序と方向で例外を設定できます。並べ替えでは冠詞 The、A、An を無視します。The Weeknd は W に並びます。**共有** は、アルバム（またはアーティストの全アルバム）を 1 つの ZIP にまとめます。音声、カバー、必要なら MV も。**小さく** を選ぶと曲を MP3 320 または AAC 256 に変換し、アーカイブのサイズは事前に表示されます。
@@ -228,7 +232,7 @@ Grimsby を象徴するブルー、グラファイト、そして「紙」の色
 
 1. **[最新バージョン](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)**のページを開き、`Grimsby-Player-Setup-X.Y.Z.exe` をダウンロードします。
 2. インストーラーを実行します。Windows に青い「Windows によって PC が保護されました」画面が表示されることがあります。これは有料のコード署名がないアプリでよく出る警告です。**詳細情報 → 実行** をクリックしてください。
-   インストーラーは VirusTotal で確認済みです：[67 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799)（バージョン 1.10.1）。
+   インストーラーは VirusTotal で確認済みです：[62 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/4a6597461a684109911c05d3b3ab3054772780af9edd355a9dc97e7f05cc918a)（バージョン 1.10.2）。
 3. 初回起動時に音楽フォルダー（必要なら動画フォルダーも）を選べば、あとは Grimsby におまかせです。
 
 **動作環境：** Windows 10 または 11（64 ビット）。インターネットはアップデートと任意のアーティスト写真にのみ使います。

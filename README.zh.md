@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-releases?label=%E7%89%88%E6%9C%AC&color=3F7EAC" alt="版本"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3F7EAC" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E5%85%8D%E8%B4%B9-%E6%97%A0%E5%B9%BF%E5%91%8A-111314" alt="免费，无广告">
-  <a href="https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/4a6597461a684109911c05d3b3ab3054772780af9edd355a9dc97e7f05cc918a"><img src="https://img.shields.io/badge/VirusTotal-0%2F62-2E7D32" alt="VirusTotal 0/62"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-releases/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-releases/total?label=%E4%B8%8B%E8%BD%BD&color=858A8D" alt="下载量"></a>
 </p>
 
@@ -203,6 +203,10 @@ Grimsby 标志性的蓝色、石墨色和「纸张」色。可选择主题或跟
 
 ![流光风格的专辑页面](screenshots/zh/album-flow.jpg)
 
+### 🖥 全屏、分碟与艺人
+
+**全屏** 在整个屏幕上显示封面、曲目、艺人和专辑——放在第二块显示器上当背景很合适。按钮位于播放栏和“正在播放”面板中，也可按 F；鼠标静止时按钮和光标会隐藏，按 Esc 退出。多碟专辑可以按碟折叠，选择会被记住。艺人拆分更准确：专辑上的“Anderson .Paak; Cordae”或曲目上的“A & B”会成为各自独立、有自己页面的艺人，而“Mumford & Sons”这样的乐队保持完整。如果判断有误，可在曲目菜单中更正——文件本身不会改动。
+
 ### 🗂 排序与分享
 
 “音乐库”和“视频”中所有年份使用同一种专辑排序，任何一年都可以设置例外——拥有自己的排序方式和方向。排序时忽略冠词 The、A 和 An：The Weeknd 排在 W 下。**分享** 会把一张专辑（或艺人的全部专辑）打包成一个 ZIP——音频、封面，以及可选的 MV；**更小** 选项会把曲目转码为 MP3 320 或 AAC 256，压缩包大小会提前显示。
@@ -228,7 +232,7 @@ Grimsby 标志性的蓝色、石墨色和「纸张」色。可选择主题或跟
 
 1. 打开**[最新版本](https://github.com/maksimkhatskevich/grimsby-releases/releases/latest)**页面，下载 `Grimsby-Player-Setup-X.Y.Z.exe`。
 2. 运行安装程序。Windows 可能会弹出蓝色的「Windows 已保护你的电脑」窗口——这是没有付费代码签名的程序常见的提示。点击**更多信息 → 仍要运行**。
-   安装程序已在 VirusTotal 上检测：[67 款杀毒引擎均未发现问题](https://www.virustotal.com/gui/file/71d859507b669356dfe6d90c2416438eb28aeb83389cb11c2a2ee5040d427799)（1.10.1 版）。
+   安装程序已在 VirusTotal 上检测：[62 款杀毒引擎均未发现问题](https://www.virustotal.com/gui/file/4a6597461a684109911c05d3b3ab3054772780af9edd355a9dc97e7f05cc918a)（1.10.2 版）。
 3. 首次启动时选择你的音乐文件夹（如果需要，也可以选择视频文件夹），其余交给 Grimsby。
 
 **系统要求：** Windows 10 或 11（64 位）。只有更新和可选的艺人照片需要联网。
